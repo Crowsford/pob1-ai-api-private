@@ -84,6 +84,18 @@ function launch:OnInit()
 		-- Run a background update check if developer mode is off
 		self:CheckForUpdate(true)
 	end
+    -- Expose PoB context for AIAPI routes
+    _G.PoBAI = _G.PoBAI or {}
+    _G.PoBAI.pobLaunch = launch
+    _G.PoBAI.pobMain = self.main
+
+    pcall(function()
+        require("AIAPI.Bootstrap")
+        if _G.PoBAI and not _G.PoBAI.initDone then
+            _G.PoBAI.init()
+            _G.PoBAI.initDone = true
+        end
+    end)
 end
 
 function launch:CanExit()
