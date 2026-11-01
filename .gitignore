@@ -40,3 +40,15 @@ runtime/imgui.ini
 runtime/SimpleGraphic/SimpleGraphic.log
 
 src/poe_api_response.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Local diagnostics
+src/output_fields.txt
+src/passive_candidates_output.txt
+src/pob-ai.log
+
+# BuildLab experiments
+passive_scan_*.json
