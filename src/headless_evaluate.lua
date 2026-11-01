@@ -46,69 +46,124 @@ end
 
 
 -- Optional experiment: allocate one passive node
+
+
+
+
+
+
+
+
+
+
+-- Passive experiment: one or multiple comma-separated node IDs
 local passiveExperiment = nil
 
-if arg[3] then
-    local nodeId = tonumber(arg[3])
-    assert(nodeId and nodeId == math.floor(nodeId), "Invalid node ID")
-
+if arg[3] and arg[3] ~= "" then
     local spec = assert(build.spec, "Passive tree unavailable")
-    local node = assert(spec.nodes[nodeId], "Passive node not found")
 
-    assert(not node.alloc, "Node is already allocated")
-    assert(node.type == "Normal", "Only normal passive nodes are supported")
-    assert(node.path, "Node has no valid path")
-    assert(
-        node.type ~= "Mastery"
-        and node.type ~= "ClassStart"
-        and node.type ~= "AscendClassStart"
-        and not node.ascendancyName
-        and not node.isMultipleChoiceOption
-        and #node.intuitiveLeapLikesAffecting == 0,
-        "Unsupported passive node type"
-    )
+    local requestedIds = {}
+    local seen = {}
 
-    local usedBefore, ascendBefore = spec:CountAllocNodes()
+    for rawId in tostring(arg[3]):gmatch("[^,]+") do
+        local nodeId = tonumber(rawId)
 
-    local pathCost = 0
-    for _, pathNode in ipairs(node.path) do
-        if not pathNode.alloc then
-            pathCost = pathCost + 1
-        end
+        assert(
+            nodeId and nodeId > 0
+            and nodeId == math.floor(nodeId),
+            "Invalid passive node ID: " .. rawId
+        )
+
+        assert(not seen[nodeId], "Duplicate passive node ID")
+        seen[nodeId] = true
+        requestedIds[#requestedIds + 1] = nodeId
     end
 
-    assert(pathCost == 1, "Only one-point paths are supported")
+    assert(#requestedIds > 0, "No passive nodes provided")
+    assert(#requestedIds <= 10, "Maximum 10 nodes per experiment")
 
-    spec:AllocNode(node)
+    local usedBefore, ascendBefore, secondaryBefore =
+        spec:CountAllocNodes()
 
-    local usedAfter, ascendAfter = spec:CountAllocNodes()
+    local allocated = {}
 
-    assert(node.alloc, "Node allocation failed")
-    assert(usedAfter - usedBefore == 1, "Unexpected passive point cost")
+    for _, nodeId in ipairs(requestedIds) do
+        local node = assert(
+            spec.nodes[nodeId],
+            "Passive node not found: " .. nodeId
+        )
+
+        assert(not node.alloc, "Node already allocated: " .. nodeId)
+        assert(node.type == "Normal", "Only normal nodes supported")
+        assert(node.path, "No valid path to node: " .. nodeId)
+        assert(not node.ascendancyName, "Ascendancy node unsupported")
+        assert(not node.isMultipleChoiceOption, "Choice node unsupported")
+        assert(
+            #node.intuitiveLeapLikesAffecting == 0,
+            "Special allocation mechanics unsupported"
+        )
+
+        local pathCost = 0
+
+        for _, pathNode in ipairs(node.path) do
+            if not pathNode.alloc then
+                pathCost = pathCost + 1
+            end
+        end
+
+        assert(
+            pathCost == 1,
+            "Node requires more than one point: " .. nodeId
+        )
+
+        spec:AllocNode(node)
+
+        allocated[#allocated + 1] = {
+            nodeId = nodeId,
+            nodeName = node.dn or node.name or "Unknown"
+        }
+    end
+
+    local usedAfter, ascendAfter, secondaryAfter =
+        spec:CountAllocNodes()
+
+    local pointsSpent = usedAfter - usedBefore
+
+    assert(
+        pointsSpent == #requestedIds,
+        "Unexpected total passive point cost"
+    )
     assert(ascendAfter == ascendBefore, "Ascendancy points changed")
+    assert(
+        secondaryAfter == secondaryBefore,
+        "Secondary ascendancy points changed"
+    )
 
-
-    -- Recalculate using the same core sequence as PoB's Build mode.
+    -- Reproduce PoB's core recalculation sequence
     build.buildFlag = true
-
     wipeGlobalCache()
-
     build.outputRevision = build.outputRevision + 1
     build.buildFlag = false
-
     build.skillsTab:UpdateSocketGroups()
     build.calcsTab:BuildOutput()
 
-
     passiveExperiment = {
-        nodeId = nodeId,
-        nodeName = node.dn or node.name or "Unknown",
+        nodes = allocated,
         pointsBefore = usedBefore,
         pointsAfter = usedAfter,
-        pointsSpent = usedAfter - usedBefore,
+        pointsSpent = pointsSpent,
         theoretical = true
     }
 end
+
+
+
+
+
+
+
+
+
 
 
     local calcsTab = assert(build.calcsTab, "CalcsTab unavailable")
