@@ -69,6 +69,8 @@ def evaluate(
     level: int | None = None,
     node: int | None = None,
     nodes: list[int] | None = None,
+    remove_nodes: list[int] | None = None,
+    skill_group: int | None = None,
 ) -> dict:
     xml_path = Path(xml_path).expanduser().resolve()
 
@@ -102,6 +104,25 @@ def evaluate(
         if len(selected_nodes) != len(set(selected_nodes)):
             raise ValueError("Duplicate passive node IDs")
 
+    selected_removals = list(remove_nodes) if remove_nodes is not None else []
+
+    if selected_removals:
+        if not 1 <= len(selected_removals) <= 10:
+            raise ValueError("Specify between 1 and 10 removal nodes")
+
+        if any(type(n) is not int or n <= 0 for n in selected_removals):
+            raise ValueError("Removal node IDs must be positive integers")
+
+        if len(selected_removals) != len(set(selected_removals)):
+            raise ValueError("Duplicate removal node IDs")
+
+    if set(selected_nodes) & set(selected_removals):
+        raise ValueError("Cannot add and remove the same node")
+
+    if skill_group is not None:
+        if type(skill_group) is not int or skill_group < 1:
+            raise ValueError("skill_group must be a positive integer")
+
     luajit = shutil.which("luajit")
 
     if not luajit:
@@ -117,7 +138,8 @@ def evaluate(
     # arg[1] = XML path
     # arg[2] = level
     # arg[3] = comma-separated passive node IDs
-    if selected_nodes:
+
+    if selected_nodes or selected_removals:
         effective_level = (
             level if level is not None
             else read_build_level(xml_path)
@@ -126,8 +148,29 @@ def evaluate(
         command.append(str(effective_level))
         command.append(",".join(str(n) for n in selected_nodes))
 
+        if selected_removals:
+            command.append(",".join(str(n) for n in selected_removals))
+
     elif level is not None:
         command.append(str(level))
+
+    if skill_group is not None:
+        effective_level = (
+            level if level is not None
+            else read_build_level(xml_path)
+        )
+
+        # Ensure positions:
+        # arg[1] XML
+        # arg[2] level
+        # arg[3] added nodes
+        # arg[4] removed nodes
+        # arg[5] skill group
+        while len(command) < 6:
+            command.append("")
+
+        command[3] = str(effective_level)
+        command.append(str(skill_group))
 
     try:
         process = subprocess.run(

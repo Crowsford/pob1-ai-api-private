@@ -63,6 +63,36 @@ for i = 1, math.min(15, #candidates) do
 end
 
 
+-- Find allocated nodes that appear to be removable
+-- without disconnecting other allocated nodes.
+local removalCandidates = {}
+
+for id, node in pairs(spec.allocNodes) do
+    if node.type == "Normal"
+        and not node.ascendancyName
+        and not node.isMultipleChoiceOption
+        and node.depends
+        and #node.depends == 1 then
+
+        removalCandidates[#removalCandidates + 1] = {
+            id = id,
+            name = node.dn or node.name or "Unknown"
+        }
+    end
+end
+
+table.sort(removalCandidates, function(a, b)
+    return tonumber(a.id) < tonumber(b.id)
+end)
+
+print("One-point removal candidates:", #removalCandidates)
+
+for i = 1, math.min(15, #removalCandidates) do
+    local node = removalCandidates[i]
+    print("REMOVE:", node.id, node.name)
+end
+
+
 local json = require("dkjson")
 
 print("RESULT_JSON:" .. json.encode({
@@ -71,5 +101,7 @@ print("RESULT_JSON:" .. json.encode({
     level = build.characterLevel,
     pointsUsed = usedBefore,
     candidateCount = #candidates,
-    candidates = candidates
+    candidates = candidates,
+    removalCandidateCount = #removalCandidates,
+    removalCandidates = removalCandidates
 }))

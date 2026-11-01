@@ -43,6 +43,33 @@ if arg[2] and arg[2] ~= "" then
 end
 
     assert(main.mode == "BUILD", "Build did not enter BUILD mode")
+-- Optional fifth argument: main skill group
+local skillGroupArg = arg[5]
+
+if skillGroupArg and skillGroupArg ~= "" then
+    local skillGroup = tonumber(skillGroupArg)
+
+    assert(
+        skillGroup
+        and skillGroup == math.floor(skillGroup)
+        and skillGroup >= 1
+        and skillGroup <= #build.skillsTab.socketGroupList,
+        "Invalid main skill group"
+    )
+
+    local group = build.skillsTab.socketGroupList[skillGroup]
+
+    assert(group.enabled, "Selected skill group is disabled")
+    assert(group.slotEnabled, "Selected skill slot is disabled")
+
+    build.mainSocketGroup = skillGroup
+    -- Recalculate after selecting the main skill group
+    wipeGlobalCache()
+    build.outputRevision = build.outputRevision + 1
+    build.buildFlag = false
+    build.skillsTab:UpdateSocketGroups()
+    build.calcsTab:BuildOutput()
+end
 
 
 -- Optional experiment: allocate one passive node
@@ -54,6 +81,93 @@ end
 
 
 
+
+-- Capture removal IDs before modifying the tree.
+-- Only singly removable normal passive nodes are supported.
+local removalExperiment = nil
+
+if arg[4] and arg[4] ~= "" then
+    local spec = assert(build.spec, "Passive tree unavailable")
+    local requestedIds = {}
+    local seen = {}
+
+    for rawId in tostring(arg[4]):gmatch("[^,]+") do
+        local nodeId = tonumber(rawId)
+
+        assert(
+            nodeId and nodeId > 0
+            and nodeId == math.floor(nodeId),
+            "Invalid removal node ID: " .. rawId
+        )
+
+        assert(not seen[nodeId], "Duplicate removal node ID")
+        seen[nodeId] = true
+        requestedIds[#requestedIds + 1] = nodeId
+    end
+
+    assert(#requestedIds > 0, "No removal nodes provided")
+    assert(#requestedIds <= 10, "Maximum 10 removals")
+
+    local usedBefore, ascendBefore, secondaryBefore =
+        spec:CountAllocNodes()
+
+    local removed = {}
+
+    for _, nodeId in ipairs(requestedIds) do
+        local node = assert(
+            spec.allocNodes[nodeId],
+            "Node is not allocated: " .. nodeId
+        )
+
+        assert(node.type == "Normal", "Only normal nodes supported")
+        assert(not node.ascendancyName, "Ascendancy removal unsupported")
+        assert(not node.isMultipleChoiceOption, "Choice removal unsupported")
+
+        local before = {}
+        for id in pairs(spec.allocNodes) do
+            before[id] = true
+        end
+
+        spec:DeallocNode(node)
+
+        local disappeared = {}
+        for id in pairs(before) do
+            if not spec.allocNodes[id] then
+                disappeared[#disappeared + 1] = id
+            end
+        end
+
+        assert(
+            #disappeared == 1 and disappeared[1] == nodeId,
+            "Removal affects additional passive nodes: " .. nodeId
+        )
+
+        removed[#removed + 1] = {
+            nodeId = nodeId,
+            nodeName = node.dn or node.name or "Unknown"
+        }
+    end
+
+    local usedAfter, ascendAfter, secondaryAfter =
+        spec:CountAllocNodes()
+
+    assert(
+        usedBefore - usedAfter == #requestedIds,
+        "Unexpected passive point refund"
+    )
+    assert(ascendAfter == ascendBefore, "Ascendancy points changed")
+    assert(
+        secondaryAfter == secondaryBefore,
+        "Secondary ascendancy points changed"
+    )
+
+    removalExperiment = {
+        nodes = removed,
+        pointsBefore = usedBefore,
+        pointsAfter = usedAfter,
+        pointsFreed = usedBefore - usedAfter
+    }
+end
 
 
 -- Passive experiment: one or multiple comma-separated node IDs
@@ -156,7 +270,15 @@ if arg[3] and arg[3] ~= "" then
     }
 end
 
-
+-- Recalculate also when the experiment only removes nodes
+if removalExperiment and not passiveExperiment then
+    build.buildFlag = true
+    wipeGlobalCache()
+    build.outputRevision = build.outputRevision + 1
+    build.buildFlag = false
+    build.skillsTab:UpdateSocketGroups()
+    build.calcsTab:BuildOutput()
+end
 
 
 
@@ -187,7 +309,76 @@ end
         className = build.spec.curClassName,
         ascendClassName = build.spec.curAscendClassName,
         level = build.characterLevel,
+	extraPoints = tonumber(build.calcsTab.mainOutput.ExtraPoints) or 0,
+	passivePointsUsed = select(1, build.spec:CountAllocNodes()),
         passiveExperiment = passiveExperiment or json.null,
+	removalExperiment = removalExperiment or json.null,
+
+
+validation = (function()
+    local output = build.calcsTab.mainOutput
+
+local specialRequirements = {
+    omni = tonumber(output.Omni),
+    reqOmni = tonumber(output.ReqOmni),
+    reqStr = tonumber(output.ReqStr),
+    reqDex = tonumber(output.ReqDex),
+    reqInt = tonumber(output.ReqInt),
+}
+
+    local attributes = {
+        str = tonumber(output.Str),
+        dex = tonumber(output.Dex),
+        int = tonumber(output.Int)
+    }
+
+    local requirements = {
+        str = tonumber(output.ReqStr) or 0,
+        dex = tonumber(output.ReqDex) or 0,
+        int = tonumber(output.ReqInt) or 0
+    }
+
+    local problems = {}
+
+    for attr, required in pairs(requirements) do
+        local actual = attributes[attr]
+
+        if actual == nil then
+            problems[#problems + 1] =
+                "Attribute unavailable: " .. attr
+        elseif actual < required then
+            problems[#problems + 1] =
+                attr .. ": " .. actual ..
+                " / required " .. required
+        end
+    end
+
+    local strengthSource = output.ReqStrItem
+    local sourceInfo = nil
+
+    if strengthSource then
+        sourceInfo = {
+            type = strengthSource.source or "Unknown",
+            name = strengthSource.source == "Gem"
+                and strengthSource.sourceGem
+                and strengthSource.sourceGem.nameSpec
+                or strengthSource.source == "Item"
+                and strengthSource.sourceItem
+                and strengthSource.sourceItem.name
+                or "Unknown"
+        }
+    end
+
+    return {
+        attributes = attributes,
+        requirements = requirements,
+        attributeRequirementsMet = #problems == 0,
+        strengthRequirementSource = sourceInfo or json.null,
+	specialRequirements = specialRequirements,
+        problems = problems
+    }
+end)(),
+
 
 stats = {
     -- Damage
@@ -206,6 +397,9 @@ stats = {
     lifeUnreserved = number("LifeUnreserved"),
     mana = number("Mana"),
     manaUnreserved = number("ManaUnreserved"),
+    manaCost = number("ManaCost"),
+    manaPerSecond = number("ManaPerSecond"),
+    lifeCost = number("LifeCost"),
     energyShield = number("EnergyShield"),
 
     -- Recovery

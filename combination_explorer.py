@@ -124,12 +124,44 @@ def load_single_cache(path, metric, base_value):
     return singles
 
 
-def explore(xml_path, cache_path, shortlist_size, metric):
+def explore(xml_path, cache_path, shortlist_size, metric, mode="research"):
     print("[Baseline] Evaluating original build",
           file=sys.stderr, flush=True)
 
     baseline = evaluate(xml_path)
     base_value = metric_value(baseline["stats"], metric)
+
+    level = baseline["level"]
+    extra_points = baseline["extraPoints"]
+    points_used = baseline["passivePointsUsed"]
+
+    if type(extra_points) is not int or extra_points < 0:
+        raise ValueError("Invalid ExtraPoints from PoB")
+
+    if type(points_used) is not int or points_used < 0:
+        raise ValueError("Invalid passivePointsUsed from PoB")
+
+    # For now, strict validation supports characters
+    # who have completed the campaign.
+    if mode == "valid" and level < 67:
+        raise ValueError(
+            "Valid mode currently requires level >= 67"
+        )
+
+    max_points = min(level - 1 + 23 + extra_points,
+                     99 + 23 + extra_points)
+
+    available_points = max_points - points_used
+
+    print(
+        f"[Budget] Used: {points_used}, "
+        f"Maximum: {max_points}, "
+        f"Available: {available_points}, "
+        f"Mode: {mode}",
+        file=sys.stderr,
+        flush=True,
+    )
+
 
     print("[Cache] Loading saved single-node results",
           file=sys.stderr, flush=True)
@@ -140,6 +172,7 @@ def explore(xml_path, cache_path, shortlist_size, metric):
 
     pairs = []
     errors = []
+    skipped = []
 
     combinations = list(
         itertools.combinations(shortlisted, 2)
@@ -154,6 +187,15 @@ def explore(xml_path, cache_path, shortlist_size, metric):
             file=sys.stderr,
             flush=True,
         )
+
+        if mode == "valid" and available_points < 2:
+            skipped.append({
+                "nodes": ids,
+                "reason": "Insufficient passive points",
+                "required": 2,
+                "available": available_points,
+            })
+            continue
 
         try:
             result = evaluate(xml_path, nodes=ids)
@@ -224,7 +266,8 @@ def explore(xml_path, cache_path, shortlist_size, metric):
         "pairsAttempted": len(combinations),
         "pairsEvaluated": len(pairs),
         "pairsFailed": len(errors),
-        "topPairs": pairs[:10],
+	"topPairs": pairs[:10],
+	"allPairs": pairs,
         "errors": errors,
         "limitations": [
             "Legacy single-node cache has no source XML hash",
@@ -234,6 +277,16 @@ def explore(xml_path, cache_path, shortlist_size, metric):
             "Passive point availability is not fully validated",
             "Defensive metrics are recorded but not constrained",
         ],
+        "mode": mode,
+        "passiveBudget": {
+            "level": level,
+            "extraPoints": extra_points,
+            "maximum": max_points,
+            "used": points_used,
+            "available": available_points,
+        },
+        "pairsSkipped": len(skipped),
+        "skipped": skipped,
     }
 
 
@@ -254,6 +307,12 @@ def main():
     )
 
     parser.add_argument("--output")
+
+    parser.add_argument(
+        "--mode",
+        choices=("research", "valid"),
+        default="research",
+    )
 
     args = parser.parse_args()
 
@@ -282,6 +341,7 @@ def main():
             cache_path,
             args.shortlist,
             args.metric,
+            args.mode,
         )
 
         output = json.dumps(
