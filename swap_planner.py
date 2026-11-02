@@ -154,11 +154,14 @@ def main():
         reverse=True,
     )
 
+    # Allocate places across different removal priorities.
+    # Each ranking contributes candidates independently.
     selected_removes = unique_by_id(
         [
             least_dps_loss[:4],
-            least_ehp_loss[:4],
-            least_regen_loss[:4],
+            least_ehp_loss,
+            least_regen_loss,
+            least_dps_loss,
         ],
         MAX_REMOVALS,
     )

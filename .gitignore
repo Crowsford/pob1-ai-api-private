@@ -52,3 +52,15 @@ src/pob-ai.log
 
 # BuildLab experiments
 passive_scan_*.json
+# PoE BuildLab AI - local generated files
+/src/aiipc/inbox/
+/src/aiipc/outbox/
+*.bak
+
+# Generated analysis results
+/candidate_scores_*.json
+/removal_scores_*.json
+/combinations_*.json
+/replacement_results.json
+/swap_*.json
+/synergy_test.json
