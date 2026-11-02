@@ -152,10 +152,25 @@ if arg[4] and arg[4] ~= "" then
             end
         end
 
-        assert(
-            #disappeared == 1 and disappeared[1] == nodeId,
-            "Removal affects additional passive nodes: " .. nodeId
-        )
+
+        if #disappeared ~= 1 or disappeared[1] ~= nodeId then
+            table.sort(disappeared)
+
+            local unexpected = {}
+
+            for _, id in ipairs(disappeared) do
+                if id ~= nodeId then
+                    unexpected[#unexpected + 1] = id
+                end
+            end
+
+            error(
+                "TREE_CONFLICT"
+                .. "|requested=" .. tostring(nodeId)
+                .. "|disconnected=" .. table.concat(unexpected, ",")
+            )
+        end
+
 
         removed[#removed + 1] = {
             nodeId = nodeId,
