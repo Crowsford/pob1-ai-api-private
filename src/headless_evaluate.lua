@@ -420,7 +420,15 @@ stats = {
     chaosResist = number("ChaosResist"),
 
     -- Movement
-    movementSpeedMod = number("MovementSpeedMod")
+    movementSpeedMod = number("MovementSpeedMod"),
+
+    blockChance = number("BlockChance"),
+    spellBlockChance = number("SpellBlockChance"),
+    blockChanceMax = number("BlockChanceMax"),
+    spellBlockChanceMax = number("SpellBlockChanceMax"),
+    spellSuppressionChance = number("SpellSuppressionChance"),
+    effectiveSpellSuppressionChance = number("EffectiveSpellSuppressionChance"),
+    spellSuppressionEffect = number("SpellSuppressionEffect"),
 }
 
     }
