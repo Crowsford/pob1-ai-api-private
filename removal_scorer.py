@@ -10,10 +10,15 @@ from pathlib import Path
 
 from experiment_runner import evaluate
 from build_validator import validate_experiment
+from experiment_storage import (
+    get_experiment_dir,
+    save_report,
+    xml_sha256,
+)
 
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
-OUTPUT = ROOT / "removal_scores_bababan99.json"
+OUTPUT = None
 SKILL_GROUP = 6
 PREFIX = "RESULT_JSON:"
 
@@ -60,6 +65,11 @@ def main():
         raise RuntimeError("BUILD_XML is not set")
 
     xml_path = str(Path(xml_path).resolve())
+    output_path = (
+        get_experiment_dir(xml_path, SKILL_GROUP)
+        / "removal_scores.json"
+    )
+    source_hash = xml_sha256(xml_path)
 
     print("[Baseline] Evaluating Bane of Condemnation", flush=True)
     baseline = evaluate(xml_path, skill_group=SKILL_GROUP)
@@ -153,6 +163,7 @@ def main():
 
     report = {
         "version": "0.1",
+        "xmlSha256": source_hash,
         "xmlPath": xml_path,
         "skillGroup": SKILL_GROUP,
         "baseline": baseline,
@@ -162,10 +173,10 @@ def main():
         "results": results,
     }
 
-    OUTPUT.write_text(
-        json.dumps(report, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
+    if xml_sha256(xml_path) != source_hash:
+        raise RuntimeError("XML changed during removal scan")
+
+    save_report(output_path, report)
 
     print("\n=== LEAST DPS LOSS ===")
     for item in results[:12]:
@@ -182,7 +193,7 @@ def main():
         f"\nCompleted: {len(results)}/{len(candidates)}; "
         f"Errors: {len(errors)}"
     )
-    print(f"Saved: {OUTPUT.name}")
+    print(f"Saved: {output_path}")
 
     return 0
 

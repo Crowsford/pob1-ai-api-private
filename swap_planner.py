@@ -5,20 +5,22 @@ import hashlib
 import json
 import math
 import os
+from experiment_storage import (
+    get_experiment_dir,
+    load_report,
+    save_report,
+    xml_sha256,
+)
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-ADD_FILE = ROOT / "candidate_scores_bababan99.json"
-REMOVE_FILE = ROOT / "removal_scores_bababan99.json"
-OUTPUT = ROOT / "swap_plan.json"
 
 SKILL_GROUP = 6
 MAX_REMOVALS = 6
 MAX_ADDITIONS = 12
 
 
-def load(path):
-    return json.loads(path.read_text(encoding="utf-8"))
+
 
 
 def number(value):
@@ -74,16 +76,29 @@ def main():
     if not xml_path.is_file():
         raise FileNotFoundError(xml_path)
 
-    xml_hash = hashlib.sha256(xml_path.read_bytes()).hexdigest()
+    xml_hash = xml_sha256(xml_path)
 
-    additions_data = load(ADD_FILE)
-    removals_data = load(REMOVE_FILE)
+    experiment_dir = get_experiment_dir(xml_path, SKILL_GROUP)
+
+    add_file = experiment_dir / "candidate_scores.json"
+    remove_file = experiment_dir / "removal_scores.json"
+    output_file = experiment_dir / "swap_plan.json"
+
+    additions_data = load_report(
+        add_file, xml_path, SKILL_GROUP
+    )
+    removals_data = load_report(
+        remove_file, xml_path, SKILL_GROUP
+    )
 
     add_base = additions_data["baseline"]
     remove_base = removals_data["baseline"]
 
     if additions_data.get("complete") is not True:
         raise RuntimeError("Addition scan is incomplete")
+
+    if removals_data.get("complete") is False:
+        raise RuntimeError("Removal scan is incomplete")
 
     if additions_data.get("errors"):
         raise RuntimeError("Addition scan contains errors")
@@ -208,7 +223,7 @@ def main():
         "version": "0.1",
         "xmlPath": str(xml_path),
         "xmlSha256": xml_hash,
-        "sourceHashesVerified": False,
+        "sourceHashesVerified": True,
         "sourceBaselineMatch": True,
         "skillGroup": SKILL_GROUP,
         "selectedRemovals": len(selected_removes),
@@ -217,15 +232,17 @@ def main():
         "pairs": pairs,
     }
 
-    OUTPUT.write_text(
-        json.dumps(report, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    if xml_sha256(xml_path) != xml_hash:
+        raise RuntimeError(
+            "XML changed during swap planning"
+        )
+
+    save_report(output_file, report)
 
     print("=== SWAP PLAN ===")
     print("XML SHA-256:", xml_hash)
     print("Source baselines consistent: YES")
-    print("Source hashes verified: NO (legacy reports)")
+    print("Source hashes verified: YES")
     print("Skill group:", SKILL_GROUP)
     print("Removal candidates:", len(selected_removes))
     print("Addition candidates:", len(selected_adds))
@@ -239,7 +256,7 @@ def main():
             f"EHP {pair['estimatedEhpChange']:+.2f}"
         )
 
-    print("\nSaved:", OUTPUT.name)
+    print("\nSaved:", output_file)
     print("These estimates are not PoB swap results.")
 
 

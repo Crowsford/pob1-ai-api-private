@@ -1,5 +1,5 @@
-
-# PoE BuildLab — Swap Executor v0.1
+﻿
+# PoE BuildLab вЂ” Swap Executor v0.1
 
 import hashlib
 import json
@@ -9,21 +9,14 @@ from pathlib import Path
 
 from experiment_runner import evaluate
 from build_validator import validate_experiment
-
-ROOT = Path(__file__).resolve().parent
-PLAN_FILE = ROOT / "swap_plan.json"
-OUTPUT_FILE = ROOT / "swap_executed.json"
-
-
-def sha256(path):
-    return hashlib.sha256(path.read_bytes()).hexdigest()
+from experiment_storage import (
+    get_experiment_dir,
+    load_report,
+    save_report,
+    xml_sha256,
+)
 
 
-def save(report):
-    OUTPUT_FILE.write_text(
-        json.dumps(report, ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
 
 
 def main():
@@ -32,12 +25,24 @@ def main():
         raise RuntimeError("BUILD_XML is not set")
 
     xml_path = Path(xml_raw).resolve()
-    plan = json.loads(PLAN_FILE.read_text(encoding="utf-8"))
+
+    skill_group = 6
+
+    experiment_dir = get_experiment_dir(
+        xml_path, skill_group
+    )
+
+    plan_file = experiment_dir / "swap_plan.json"
+    output_file = experiment_dir / "swap_executed.json"
+
+    plan = load_report(
+        plan_file, xml_path, skill_group
+    )
 
     if xml_path != Path(plan["xmlPath"]).resolve():
         raise RuntimeError("Plan XML path does not match BUILD_XML")
 
-    xml_hash = sha256(xml_path)
+    xml_hash = xml_sha256(xml_path)
 
     if xml_hash != plan["xmlSha256"]:
         raise RuntimeError(
@@ -46,15 +51,12 @@ def main():
         )
 
     if plan.get("sourceHashesVerified") is not True:
-        print(
-            "WARNING: Legacy source score hashes were not verified.",
-            flush=True,
+        raise RuntimeError(
+            "Swap plan contains unverified source reports"
         )
 
     if len(plan["pairs"]) != plan["plannedPairs"]:
         raise RuntimeError("Incomplete swap plan")
-
-    skill_group = plan["skillGroup"]
 
     print("[Baseline] Evaluating original build", flush=True)
     baseline = evaluate(xml_path, skill_group=skill_group)
@@ -77,10 +79,16 @@ def main():
         "complete": False,
     }
 
-    save(report)
+    save_report(output_file, report)
 
     try:
         for index, pair in enumerate(plan["pairs"], 1):
+
+            if xml_sha256(xml_path) != xml_hash:
+                raise RuntimeError(
+                    "XML changed during swap execution"
+                )
+
             remove_id = pair["removeId"]
             add_id = pair["addId"]
 
@@ -155,20 +163,20 @@ def main():
                     "error": str(exc),
                 })
 
-            save(report)
+            save_report(output_file, report)
 
     except KeyboardInterrupt:
         print("\nInterrupted. Partial results saved.")
         return 130
 
-    if sha256(xml_path) != xml_hash:
+    if xml_sha256(xml_path) != xml_hash:
         raise RuntimeError(
             "XML changed during the experiment. "
             "Results must not be trusted."
         )
 
     report["complete"] = True
-    save(report)
+    save_report(output_file, report)
 
     ranked = sorted(
         report["results"],
@@ -191,7 +199,7 @@ def main():
         f"{report['planned']}"
     )
     print(f"Rejected: {len(report['rejected'])}")
-    print("Saved:", OUTPUT_FILE.name)
+    print("Saved:", output_file)
 
     return 0
 

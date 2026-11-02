@@ -80,7 +80,21 @@ end
 
 
 
+-- Tree Integrity Guard v0.1
+-- Snapshot the originally allocated passive nodes.
 
+local originalAllocNodes = {}
+
+do
+    local spec = assert(build.spec, "Passive tree unavailable")
+
+    for nodeId in pairs(spec.allocNodes) do
+        originalAllocNodes[nodeId] = true
+    end
+end
+
+local expectedRemovedNodes = {}
+local expectedAddedNodes = {}
 
 -- Capture removal IDs before modifying the tree.
 -- Only singly removable normal passive nodes are supported.
@@ -103,6 +117,7 @@ if arg[4] and arg[4] ~= "" then
         assert(not seen[nodeId], "Duplicate removal node ID")
         seen[nodeId] = true
         requestedIds[#requestedIds + 1] = nodeId
+        expectedRemovedNodes[nodeId] = true
     end
 
     assert(#requestedIds > 0, "No removal nodes provided")
@@ -191,6 +206,7 @@ if arg[3] and arg[3] ~= "" then
         assert(not seen[nodeId], "Duplicate passive node ID")
         seen[nodeId] = true
         requestedIds[#requestedIds + 1] = nodeId
+        expectedAddedNodes[nodeId] = true
     end
 
     assert(#requestedIds > 0, "No passive nodes provided")
@@ -280,7 +296,41 @@ if removalExperiment and not passiveExperiment then
     build.calcsTab:BuildOutput()
 end
 
+-- Verify the exact final set of allocated passive nodes.
+-- Expected = (original - removed) + added.
 
+if removalExperiment or passiveExperiment then
+    local spec = assert(build.spec, "Passive tree unavailable")
+    local expected = {}
+
+    for nodeId in pairs(originalAllocNodes) do
+        if not expectedRemovedNodes[nodeId] then
+            expected[nodeId] = true
+        end
+    end
+
+    for nodeId in pairs(expectedAddedNodes) do
+        assert(
+            not expected[nodeId],
+            "Unexpected duplicate allocation: " .. nodeId
+        )
+        expected[nodeId] = true
+    end
+
+    for nodeId in pairs(expected) do
+        assert(
+            spec.allocNodes[nodeId] ~= nil,
+            "Tree integrity: expected node missing: " .. nodeId
+        )
+    end
+
+    for nodeId in pairs(spec.allocNodes) do
+        assert(
+            expected[nodeId] == true,
+            "Tree integrity: unexpected allocated node: " .. nodeId
+        )
+    end
+end
 
 
 

@@ -10,9 +10,16 @@ from pathlib import Path
 
 from experiment_runner import evaluate
 
+from experiment_storage import (
+    get_experiment_dir,
+    metadata,
+    save_report,
+    xml_sha256,
+)
+
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
-OUTPUT = ROOT / "candidate_scores_bababan99.json"
+OUTPUT = None
 
 SKILL_GROUP = 6
 PREFIX = "RESULT_JSON:"
@@ -48,10 +55,7 @@ def discover(xml_path):
 
 
 def save(report):
-    OUTPUT.write_text(
-        json.dumps(report, indent=2, ensure_ascii=False),
-        encoding="utf-8",
-    )
+    save_report(OUTPUT, report)
 
 
 def main():
@@ -60,6 +64,14 @@ def main():
         raise RuntimeError("BUILD_XML is not set")
 
     xml_path = str(Path(xml_path).resolve())
+    global OUTPUT
+
+    OUTPUT = (
+        get_experiment_dir(xml_path, SKILL_GROUP)
+        / "candidate_scores.json"
+    )
+
+    source_hash = xml_sha256(xml_path)
 
     print("[Baseline] Evaluating Bane of Condemnation", flush=True)
     baseline = evaluate(xml_path, skill_group=SKILL_GROUP)
@@ -80,6 +92,7 @@ def main():
         "scores": [],
         "errors": [],
         "complete": False,
+        "xmlSha256": source_hash,
     }
 
     print(f"Scanning {len(candidates)} nodes", flush=True)
@@ -147,6 +160,12 @@ def main():
     except KeyboardInterrupt:
         print("\nInterrupted. Partial results saved.", flush=True)
         return 130
+
+    if xml_sha256(xml_path) != source_hash:
+        raise RuntimeError(
+            "XML changed during candidate scan. "
+            "Results are not trusted."
+        )
 
     report["complete"] = True
     save(report)
