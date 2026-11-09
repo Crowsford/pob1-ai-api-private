@@ -1,0 +1,1104 @@
+{
+  "version": "0.9",
+  "xmlPath": "D:\\Dev\\pob\\pob1-ai-api\\test_builds\\BabaBan_corrected.xml",
+  "xmlSha256": "cf5fa3e68bc6aa5c5ca2ee1b1d14231f8f32bf25323886d771bf7ece921766b0",
+  "skillGroup": 6,
+  "plannedKeys": [
+    "21974,22315->2292,63138",
+    "21974,22315->34907,63138",
+    "21974,22315->48362,63138",
+    "21974,22315->48514,63138",
+    "21974,22315->63138,65203",
+    "22315,25831->2292,63138",
+    "22315,25831->34907,63138",
+    "22315,25831->48362,63138",
+    "22315,25831->48514,63138",
+    "22315,25831->63138,65203",
+    "13753,22315->13322,63138",
+    "13753,22315->22473,63138",
+    "22315,23659->13322,63138",
+    "22315,23659->22473,63138",
+    "22315,35706->13322,63138",
+    "22315,35706->22473,63138",
+    "4432,22315->13322,63138",
+    "4432,22315->22473,63138",
+    "13753,22315->55643,63138",
+    "22315,23659->55643,63138",
+    "22315,35706->55643,63138",
+    "4432,22315->55643,63138",
+    "22315,50082->48971,63138",
+    "22315,50082->57264,63138",
+    "13753,22315->1822,63138",
+    "13753,22315->38190,63138",
+    "13753,22315->61320,63138",
+    "22315,23659->1822,63138",
+    "22315,23659->38190,63138",
+    "22315,23659->61320,63138",
+    "22315,35706->1822,63138",
+    "22315,35706->38190,63138",
+    "22315,35706->61320,63138",
+    "4432,22315->1822,63138",
+    "4432,22315->38190,63138",
+    "4432,22315->61320,63138",
+    "13753,22315->14057,63138",
+    "13753,22315->5743,63138",
+    "22315,23659->14057,63138",
+    "22315,23659->5743,63138",
+    "22315,35706->14057,63138",
+    "22315,35706->5743,63138",
+    "4432,22315->14057,63138",
+    "4432,22315->5743,63138",
+    "21974,22315->12913,55571",
+    "22315,25831->12913,55571",
+    "21974,22315->12913,48971",
+    "21974,22315->12913,57264",
+    "22315,25831->12913,48971",
+    "22315,25831->12913,57264",
+    "21974,22315->12913,13322",
+    "21974,22315->12913,22473",
+    "22315,25831->12913,13322",
+    "22315,25831->12913,22473",
+    "21974,22315->12913,55643",
+    "22315,25831->12913,55643",
+    "21974,22315->12913,38190",
+    "21974,22315->12913,61320",
+    "21974,22315->1822,12913",
+    "22315,25831->12913,38190",
+    "22315,25831->12913,61320",
+    "22315,25831->1822,12913",
+    "21974,22315->2292,55571",
+    "21974,22315->34907,55571",
+    "21974,22315->48362,55571",
+    "21974,22315->48514,55571",
+    "21974,22315->55571,65203",
+    "22315,25831->2292,55571",
+    "22315,25831->34907,55571",
+    "22315,25831->48362,55571",
+    "22315,25831->48514,55571",
+    "22315,25831->55571,65203",
+    "22315,47085->55571,61320",
+    "21974,22315->12913,40075",
+    "21974,22315->12913,65893",
+    "22315,25831->12913,40075",
+    "22315,25831->12913,65893",
+    "21974,22315->12913,49515",
+    "22315,25831->12913,49515",
+    "7503,21974->12913,49515",
+    "7503,25831->12913,49515",
+    "13753,22315->13322,55571",
+    "13753,22315->22473,55571",
+    "22315,23659->13322,55571",
+    "22315,23659->22473,55571",
+    "22315,35706->13322,55571",
+    "22315,35706->22473,55571",
+    "22315,62767->55571,63138",
+    "4432,22315->13322,55571",
+    "4432,22315->22473,55571",
+    "21974,22315->12913,14057",
+    "21974,22315->5743,12913",
+    "22315,25831->12913,14057",
+    "22315,25831->5743,12913",
+    "21974,22315->12913,18239",
+    "21974,22315->12913,21934",
+    "22315,25831->12913,18239",
+    "22315,25831->12913,21934",
+    "22315,47085->49515,55571",
+    "7503,47085->49515,55571",
+    "21974,22315->61320,63138",
+    "22315,25831->61320,63138",
+    "21974,22315->63138,65893",
+    "22315,25831->40075,63138",
+    "22315,25831->63138,65893",
+    "21974,22315->49515,63138",
+    "22315,25831->49515,63138",
+    "7503,21974->49515,63138",
+    "7503,25831->49515,63138",
+    "21974,22315->14057,63138",
+    "21974,22315->5743,63138",
+    "22315,25831->14057,63138",
+    "22315,25831->5743,63138",
+    "21974,22315->18239,63138",
+    "21974,22315->21934,63138",
+    "22315,25831->18239,63138",
+    "22315,25831->21934,63138",
+    "7503,21974->12913,63138",
+    "7503,25831->12913,63138",
+    "25831,47085->55571,63138",
+    "7503,47085->55571,63138",
+    "21974,22315->31973,63138",
+    "22315,25831->31973,63138",
+    "7503,9392->55571,63138",
+    "21974,22315->59650,63138",
+    "22315,25831->59650,63138",
+    "21974,22315->7641,63138",
+    "22315,25831->7641,63138",
+    "7503,21974->7641,63138",
+    "7503,25831->7641,63138",
+    "21974,47085->48971,63138",
+    "21974,47085->57264,63138",
+    "25831,47085->57264,63138",
+    "7503,47085->48971,63138",
+    "13753,22315->55571,63138",
+    "22315,23659->55571,63138",
+    "22315,35706->55571,63138",
+    "4432,22315->55571,63138",
+    "22315,47085->22473,63138",
+    "21974,22315->1031,63138",
+    "21974,22315->15117,63138",
+    "21974,22315->18033,63138",
+    "21974,22315->26270,63138",
+    "21974,22315->33310,63138",
+    "21974,22315->36542,63138",
+    "21974,22315->3656,63138",
+    "21974,22315->39841,63138",
+    "21974,22315->41635,63138",
+    "21974,22315->44184,63138",
+    "21974,22315->46340,63138",
+    "21974,22315->5296,63138",
+    "21974,22315->53456,63138",
+    "21974,22315->58402,63138",
+    "22315,25831->1031,63138",
+    "22315,25831->15117,63138",
+    "22315,25831->18033,63138",
+    "22315,25831->26270,63138",
+    "22315,25831->33310,63138",
+    "22315,25831->36542,63138",
+    "22315,25831->3656,63138",
+    "21974,25831->61320,63138",
+    "21974,25831->40075,63138",
+    "21974,25831->63138,65893",
+    "21974,25831->49515,63138",
+    "21974,25831->14057,63138",
+    "21974,25831->5743,63138",
+    "21974,25831->18239,63138",
+    "21974,25831->21934,63138",
+    "21974,25831->12913,63138",
+    "21974,25831->31973,63138",
+    "21974,25831->59650,63138",
+    "21974,25831->7641,63138",
+    "13753,21974->55571,63138",
+    "13753,25831->55571,63138",
+    "21974,23659->55571,63138",
+    "21974,35706->55571,63138",
+    "23659,25831->55571,63138",
+    "25831,35706->55571,63138",
+    "4432,21974->55571,63138",
+    "4432,25831->55571,63138",
+    "4432,7503->55571,63138",
+    "7503,13753->55571,63138",
+    "7503,23659->55571,63138",
+    "7503,35706->55571,63138",
+    "21974,25831->1031,63138",
+    "21974,25831->15117,63138",
+    "21974,25831->18033,63138",
+    "21974,25831->26270,63138",
+    "21974,25831->33310,63138",
+    "21974,25831->36542,63138",
+    "21974,25831->3656,63138",
+    "21974,25831->39841,63138",
+    "21974,25831->41635,63138",
+    "21974,25831->44184,63138",
+    "21974,25831->46340,63138",
+    "21974,25831->5296,63138",
+    "9392,22315->13322,63138",
+    "9392,22315->22473,63138",
+    "21974,50082->55571,63138",
+    "25831,50082->55571,63138"
+  ],
+  "results": [
+    {
+      "key": "21974,22315->2292,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        2292,
+        63138
+      ],
+      "status": "PASS",
+      "problems": [],
+      "changes": {
+        "dps_percent": 0.31914893616801693,
+        "ehp_percent": 3.5989815117070454,
+        "es_percent": 0.7211050172658948,
+        "es_recharge_percent": 0.7208387942332897,
+        "mana_regen_percent": -4.309063893016332,
+        "free_mana": 554.0,
+        "mana_cost": 50.0,
+        "free_mana_percent": -8.731466227347612,
+        "fireResist_change": 0.0,
+        "coldResist_change": 0.0,
+        "lightningResist_change": 0.0,
+        "chaosResist_change": 0.0,
+        "blockChance_change": 0.0,
+        "spellBlockChance_change": 3.0,
+        "blockChanceMax_change": 0.0,
+        "spellBlockChanceMax_change": 0.0,
+        "spellSuppressionChance_change": 0.0,
+        "effectiveSpellSuppressionChance_change": 0.0,
+        "spellSuppressionEffect_change": 0.0
+      },
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3394977.6456324,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1896,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 64.4,
+        "manaUnreserved": 554,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3394977.6456324,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      },
+      "predictedUtility": 3.91813,
+      "predictedStatus": "PASS"
+    },
+    {
+      "key": "21974,22315->34907,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        34907,
+        63138
+      ],
+      "status": "PASS",
+      "problems": [],
+      "changes": {
+        "dps_percent": 0.31914893616801693,
+        "ehp_percent": 3.5989815117070454,
+        "es_percent": 0.7211050172658948,
+        "es_recharge_percent": 0.7208387942332897,
+        "mana_regen_percent": -4.309063893016332,
+        "free_mana": 554.0,
+        "mana_cost": 50.0,
+        "free_mana_percent": -8.731466227347612,
+        "fireResist_change": 0.0,
+        "coldResist_change": 0.0,
+        "lightningResist_change": 0.0,
+        "chaosResist_change": 0.0,
+        "blockChance_change": 0.0,
+        "spellBlockChance_change": 3.0,
+        "blockChanceMax_change": 0.0,
+        "spellBlockChanceMax_change": 0.0,
+        "spellSuppressionChance_change": 0.0,
+        "effectiveSpellSuppressionChance_change": 0.0,
+        "spellSuppressionEffect_change": 0.0
+      },
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3394977.6456324,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1896,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 64.4,
+        "manaUnreserved": 554,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3394977.6456324,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      },
+      "predictedUtility": 3.91813,
+      "predictedStatus": "PASS"
+    },
+    {
+      "key": "21974,22315->48362,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        48362,
+        63138
+      ],
+      "status": "PASS",
+      "problems": [],
+      "changes": {
+        "dps_percent": 0.31914893616801693,
+        "ehp_percent": 3.5989815117070454,
+        "es_percent": 0.7211050172658948,
+        "es_recharge_percent": 0.7208387942332897,
+        "mana_regen_percent": -4.309063893016332,
+        "free_mana": 554.0,
+        "mana_cost": 50.0,
+        "free_mana_percent": -8.731466227347612,
+        "fireResist_change": 0.0,
+        "coldResist_change": 0.0,
+        "lightningResist_change": 0.0,
+        "chaosResist_change": 0.0,
+        "blockChance_change": 0.0,
+        "spellBlockChance_change": 3.0,
+        "blockChanceMax_change": 0.0,
+        "spellBlockChanceMax_change": 0.0,
+        "spellSuppressionChance_change": 0.0,
+        "effectiveSpellSuppressionChance_change": 0.0,
+        "spellSuppressionEffect_change": 0.0
+      },
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3394977.6456324,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1896,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 64.4,
+        "manaUnreserved": 554,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3394977.6456324,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      },
+      "predictedUtility": 3.91813,
+      "predictedStatus": "PASS"
+    },
+    {
+      "key": "21974,22315->63138,65203",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        63138,
+        65203
+      ],
+      "status": "PASS",
+      "problems": [],
+      "changes": {
+        "dps_percent": 0.31914893616801693,
+        "ehp_percent": 3.5989815117070454,
+        "es_percent": 0.7211050172658948,
+        "es_recharge_percent": 0.7208387942332897,
+        "mana_regen_percent": 0.594353640416056,
+        "free_mana": 554.0,
+        "mana_cost": 50.0,
+        "free_mana_percent": -8.731466227347612,
+        "fireResist_change": 0.0,
+        "coldResist_change": 0.0,
+        "lightningResist_change": 0.0,
+        "chaosResist_change": 0.0,
+        "blockChance_change": 0.0,
+        "spellBlockChance_change": 3.0,
+        "blockChanceMax_change": 0.0,
+        "spellBlockChanceMax_change": 0.0,
+        "spellSuppressionChance_change": 0.0,
+        "effectiveSpellSuppressionChance_change": 0.0,
+        "spellSuppressionEffect_change": 0.0
+      },
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3394977.6456324,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1896,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.7,
+        "manaUnreserved": 554,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3394977.6456324,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      },
+      "predictedUtility": 3.91813,
+      "predictedStatus": "PASS"
+    },
+    {
+      "key": "22315,25831->2292,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        2292,
+        63138
+      ],
+      "status": "PASS",
+      "problems": [],
+      "changes": {
+        "dps_percent": 0.31914893616801693,
+        "ehp_percent": 3.5989815117070454,
+        "es_percent": 0.7211050172658948,
+        "es_recharge_percent": 0.7208387942332897,
+        "mana_regen_percent": -4.309063893016332,
+        "free_mana": 554.0,
+        "mana_cost": 50.0,
+        "free_mana_percent": -8.731466227347612,
+        "fireResist_change": 0.0,
+        "coldResist_change": 0.0,
+        "lightningResist_change": 0.0,
+        "chaosResist_change": 0.0,
+        "blockChance_change": 0.0,
+        "spellBlockChance_change": 3.0,
+        "blockChanceMax_change": 0.0,
+        "spellBlockChanceMax_change": 0.0,
+        "spellSuppressionChance_change": 0.0,
+        "effectiveSpellSuppressionChance_change": 0.0,
+        "spellSuppressionEffect_change": 0.0
+      },
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3394977.6456324,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1896,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 64.4,
+        "manaUnreserved": 554,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3394977.6456324,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      },
+      "predictedUtility": 3.91813,
+      "predictedStatus": "PASS"
+    },
+    {
+      "key": "22315,25831->34907,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        34907,
+        63138
+      ],
+      "status": "PASS",
+      "problems": [],
+      "changes": {
+        "dps_percent": 0.31914893616801693,
+        "ehp_percent": 3.5989815117070454,
+        "es_percent": 0.7211050172658948,
+        "es_recharge_percent": 0.7208387942332897,
+        "mana_regen_percent": -4.309063893016332,
+        "free_mana": 554.0,
+        "mana_cost": 50.0,
+        "free_mana_percent": -8.731466227347612,
+        "fireResist_change": 0.0,
+        "coldResist_change": 0.0,
+        "lightningResist_change": 0.0,
+        "chaosResist_change": 0.0,
+        "blockChance_change": 0.0,
+        "spellBlockChance_change": 3.0,
+        "blockChanceMax_change": 0.0,
+        "spellBlockChanceMax_change": 0.0,
+        "spellSuppressionChance_change": 0.0,
+        "effectiveSpellSuppressionChance_change": 0.0,
+        "spellSuppressionEffect_change": 0.0
+      },
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3394977.6456324,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1896,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 64.4,
+        "manaUnreserved": 554,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3394977.6456324,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      },
+      "predictedUtility": 3.91813,
+      "predictedStatus": "PASS"
+    },
+    {
+      "key": "22315,25831->48362,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        48362,
+        63138
+      ],
+      "status": "PASS",
+      "problems": [],
+      "changes": {
+        "dps_percent": 0.31914893616801693,
+        "ehp_percent": 3.5989815117070454,
+        "es_percent": 0.7211050172658948,
+        "es_recharge_percent": 0.7208387942332897,
+        "mana_regen_percent": -4.309063893016332,
+        "free_mana": 554.0,
+        "mana_cost": 50.0,
+        "free_mana_percent": -8.731466227347612,
+        "fireResist_change": 0.0,
+        "coldResist_change": 0.0,
+        "lightningResist_change": 0.0,
+        "chaosResist_change": 0.0,
+        "blockChance_change": 0.0,
+        "spellBlockChance_change": 3.0,
+        "blockChanceMax_change": 0.0,
+        "spellBlockChanceMax_change": 0.0,
+        "spellSuppressionChance_change": 0.0,
+        "effectiveSpellSuppressionChance_change": 0.0,
+        "spellSuppressionEffect_change": 0.0
+      },
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3394977.6456324,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1896,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 64.4,
+        "manaUnreserved": 554,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3394977.6456324,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      },
+      "predictedUtility": 3.91813,
+      "predictedStatus": "PASS"
+    },
+    {
+      "key": "22315,25831->63138,65203",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        63138,
+        65203
+      ],
+      "status": "PASS",
+      "problems": [],
+      "changes": {
+        "dps_percent": 0.31914893616801693,
+        "ehp_percent": 3.5989815117070454,
+        "es_percent": 0.7211050172658948,
+        "es_recharge_percent": 0.7208387942332897,
+        "mana_regen_percent": 0.594353640416056,
+        "free_mana": 554.0,
+        "mana_cost": 50.0,
+        "free_mana_percent": -8.731466227347612,
+        "fireResist_change": 0.0,
+        "coldResist_change": 0.0,
+        "lightningResist_change": 0.0,
+        "chaosResist_change": 0.0,
+        "blockChance_change": 0.0,
+        "spellBlockChance_change": 3.0,
+        "blockChanceMax_change": 0.0,
+        "spellBlockChanceMax_change": 0.0,
+        "spellSuppressionChance_change": 0.0,
+        "effectiveSpellSuppressionChance_change": 0.0,
+        "spellSuppressionEffect_change": 0.0
+      },
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3394977.6456324,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1896,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.7,
+        "manaUnreserved": 554,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3394977.6456324,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      },
+      "predictedUtility": 3.91813,
+      "predictedStatus": "PASS"
+    }
+  ],
+  "invalidTrees": [],
+  "invalidCandidates": [
+    {
+      "key": "21974,22315->48514,63138",
+      "reason": "MULTI_POINT_REQUIRED",
+      "error": "PoB calculation failed: D:\\Dev\\pob\\pob1-ai-api\\src\\headless_evaluate.lua:259: Node requires more than one point: 48514"
+    },
+    {
+      "key": "22315,25831->48514,63138",
+      "reason": "MULTI_POINT_REQUIRED",
+      "error": "PoB calculation failed: D:\\Dev\\pob\\pob1-ai-api\\src\\headless_evaluate.lua:259: Node requires more than one point: 48514"
+    }
+  ],
+  "complete": false
+}

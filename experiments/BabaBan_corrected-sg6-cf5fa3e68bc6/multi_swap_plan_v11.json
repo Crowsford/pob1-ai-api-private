@@ -1,0 +1,6018 @@
+{
+  "version": "1.1",
+  "xmlPath": "D:\\Dev\\pob\\pob1-ai-api\\test_builds\\BabaBan_corrected.xml",
+  "xmlSha256": "cf5fa3e68bc6aa5c5ca2ee1b1d14231f8f32bf25323886d771bf7ece921766b0",
+  "skillGroup": 6,
+  "sourcePlan": "multi_swap_plan_v10.json",
+  "sourceFrontier": "pareto_frontier.json",
+  "previouslyCompleted": 10,
+  "planned": 190,
+  "candidates": [
+    {
+      "key": "21974,22315->12913,18239",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        18239
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.021277,
+      "predictedScore": 1.9767,
+      "predictedDpsPercent": 2.021277,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -2.228826,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        2.0213,
+        0.0,
+        -2.2288
+      ]
+    },
+    {
+      "key": "7503,9392->48971,49515",
+      "removeIds": [
+        7503,
+        9392
+      ],
+      "addIds": [
+        48971,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.461429,
+      "predictedScore": 1.461429,
+      "predictedDpsPercent": 0.332265,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3323,
+        1.1292,
+        0
+      ]
+    },
+    {
+      "key": "13753,21974->12913,13322",
+      "removeIds": [
+        13753,
+        21974
+      ],
+      "addIds": [
+        12913,
+        13322
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.957447,
+      "predictedScore": 1.103063,
+      "predictedDpsPercent": 0.957447,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 7.280832,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.9574,
+        0.0,
+        7.2808
+      ]
+    },
+    {
+      "key": "7503,21974->2292,49515",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        2292,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.34193,
+      "predictedScore": 1.422168,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": 4.011887,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2128,
+        1.1292,
+        4.0119
+      ]
+    },
+    {
+      "key": "7503,25831->15117,63138",
+      "removeIds": [
+        7503,
+        25831
+      ],
+      "addIds": [
+        15117,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedScore": 4.07433,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.2128,
+        3.8259,
+        1.7831
+      ]
+    },
+    {
+      "key": "22315,47085->55571,59650",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        55571,
+        59650
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.507261,
+      "predictedScore": 1.551837,
+      "predictedDpsPercent": 0.864318,
+      "predictedEhpPercent": 0.642942,
+      "predictedManaRegenPercent": 2.228826,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.8643,
+        0.6429,
+        2.2288
+      ]
+    },
+    {
+      "key": "9392,22315->55571,59650",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        55571,
+        59650
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.327874,
+      "predictedScore": 1.37245,
+      "predictedDpsPercent": 0.684932,
+      "predictedEhpPercent": 0.642942,
+      "predictedManaRegenPercent": 2.228826,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.6849,
+        0.6429,
+        2.2288
+      ]
+    },
+    {
+      "key": "7503,47085->7641,55571",
+      "removeIds": [
+        7503,
+        47085
+      ],
+      "addIds": [
+        7641,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.459986,
+      "predictedScore": 1.459986,
+      "predictedDpsPercent": 0.864318,
+      "predictedEhpPercent": 0.595667,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.8643,
+        0.5957,
+        0
+      ]
+    },
+    {
+      "key": "13753,47085->13322,55571",
+      "removeIds": [
+        13753,
+        47085
+      ],
+      "addIds": [
+        13322,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.965911,
+      "predictedScore": 0.965911,
+      "predictedDpsPercent": 0.857413,
+      "predictedEhpPercent": 0.108498,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.8574,
+        0.1085,
+        0
+      ]
+    },
+    {
+      "key": "7503,13753->21934,63138",
+      "removeIds": [
+        7503,
+        13753
+      ],
+      "addIds": [
+        21934,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 3.186236,
+      "predictedScore": 3.212982,
+      "predictedDpsPercent": 0.957447,
+      "predictedEhpPercent": 2.228789,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.9574,
+        2.2288,
+        1.3373
+      ]
+    },
+    {
+      "key": "4432,9392->13322,55571",
+      "removeIds": [
+        4432,
+        9392
+      ],
+      "addIds": [
+        13322,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.786143,
+      "predictedScore": 0.786143,
+      "predictedDpsPercent": 0.677645,
+      "predictedEhpPercent": 0.108498,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.6776,
+        0.1085,
+        0
+      ]
+    },
+    {
+      "key": "22315,50082->55571,57264",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        55571,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.940813,
+      "predictedScore": 1.786281,
+      "predictedDpsPercent": 1.940813,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -7.726597,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.9408,
+        0.0,
+        -7.7266
+      ]
+    },
+    {
+      "key": "22315,62767->55571,63138",
+      "removeIds": [
+        22315,
+        62767
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.054795,
+      "predictedScore": 1.864601,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        2.0548,
+        0.0,
+        -9.5097
+      ]
+    },
+    {
+      "key": "7503,50082->49515,55571",
+      "removeIds": [
+        7503,
+        50082
+      ],
+      "addIds": [
+        49515,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.398244,
+      "predictedScore": 1.398244,
+      "predictedDpsPercent": 0.26908,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2691,
+        1.1292,
+        0
+      ]
+    },
+    {
+      "key": "13753,23659->55571,63138",
+      "removeIds": [
+        13753,
+        23659
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": 2.636358,
+      "predictedScore": 2.663104,
+      "predictedDpsPercent": 1.731274,
+      "predictedEhpPercent": 0.905085,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.7313,
+        0.9051,
+        1.3373
+      ]
+    },
+    {
+      "key": "21974,22315->12913,65203",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        65203
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.170213,
+      "predictedScore": 1.297999,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 6.389302,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.1702,
+        0.0,
+        6.3893
+      ]
+    },
+    {
+      "key": "22315,47085->57264,59650",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        57264,
+        59650
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.154594,
+      "predictedScore": 1.23186,
+      "predictedDpsPercent": 0.511651,
+      "predictedEhpPercent": 0.642942,
+      "predictedManaRegenPercent": 3.863299,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5117,
+        0.6429,
+        3.8633
+      ]
+    },
+    {
+      "key": "7503,47085->7641,57264",
+      "removeIds": [
+        7503,
+        47085
+      ],
+      "addIds": [
+        7641,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.107319,
+      "predictedScore": 1.14298,
+      "predictedDpsPercent": 0.511651,
+      "predictedEhpPercent": 0.595667,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5117,
+        0.5957,
+        1.7831
+      ]
+    },
+    {
+      "key": "7503,9392->7641,55571",
+      "removeIds": [
+        7503,
+        9392
+      ],
+      "addIds": [
+        7641,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.280599,
+      "predictedScore": 1.280599,
+      "predictedDpsPercent": 0.684932,
+      "predictedEhpPercent": 0.595667,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.6849,
+        0.5957,
+        0
+      ]
+    },
+    {
+      "key": "4432,21974->1031,63138",
+      "removeIds": [
+        4432,
+        21974
+      ],
+      "addIds": [
+        1031,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 2.492742,
+      "predictedScore": 2.528404,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 2.492742,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.0,
+        2.4927,
+        1.7831
+      ]
+    },
+    {
+      "key": "9392,22315->12913,57264",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        12913,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.266395,
+      "predictedScore": 1.245592,
+      "predictedDpsPercent": 1.266395,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -1.040119,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.2664,
+        0.0,
+        -1.0401
+      ]
+    },
+    {
+      "key": "13753,47085->13322,57264",
+      "removeIds": [
+        13753,
+        47085
+      ],
+      "addIds": [
+        13322,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.617616,
+      "predictedScore": 0.653278,
+      "predictedDpsPercent": 0.509119,
+      "predictedEhpPercent": 0.108498,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5091,
+        0.1085,
+        1.7831
+      ]
+    },
+    {
+      "key": "4432,9392->13322,57264",
+      "removeIds": [
+        4432,
+        9392
+      ],
+      "addIds": [
+        13322,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.437848,
+      "predictedScore": 0.473509,
+      "predictedDpsPercent": 0.32935,
+      "predictedEhpPercent": 0.108498,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3293,
+        0.1085,
+        1.7831
+      ]
+    },
+    {
+      "key": "22315,50082->48971,55571",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        48971,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.940813,
+      "predictedScore": 1.75062,
+      "predictedDpsPercent": 1.940813,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.9408,
+        0.0,
+        -9.5097
+      ]
+    },
+    {
+      "key": "13753,50082->55571,63138",
+      "removeIds": [
+        13753,
+        50082
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": 2.431702,
+      "predictedScore": 2.458448,
+      "predictedDpsPercent": 0.156426,
+      "predictedEhpPercent": 2.275277,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.1564,
+        2.2753,
+        1.3373
+      ]
+    },
+    {
+      "key": "13753,22315->1822,63138",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        1822,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedScore": 3.377007,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "predictedManaRegenPercent": -8.172363,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.1064,
+        3.4341,
+        -8.1724
+      ]
+    },
+    {
+      "key": "4432,7503->13322,49515",
+      "removeIds": [
+        4432,
+        7503
+      ],
+      "addIds": [
+        13322,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.129164,
+      "predictedScore": 1.129164,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.0,
+        1.1292,
+        0
+      ]
+    },
+    {
+      "key": "47085,50082->55571,57264",
+      "removeIds": [
+        47085,
+        50082
+      ],
+      "addIds": [
+        55571,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.725875,
+      "predictedScore": 0.761536,
+      "predictedDpsPercent": 0.725875,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.7259,
+        0.0,
+        1.7831
+      ]
+    },
+    {
+      "key": "47085,62767->55571,63138",
+      "removeIds": [
+        47085,
+        62767
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.839856,
+      "predictedScore": 0.839856,
+      "predictedDpsPercent": 0.839856,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.8399,
+        0.0,
+        0
+      ]
+    },
+    {
+      "key": "4432,47085->61320,63138",
+      "removeIds": [
+        4432,
+        47085
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT"
+      ],
+      "predictedUtility": 2.296156,
+      "predictedScore": 2.322902,
+      "predictedDpsPercent": -1.08536,
+      "predictedEhpPercent": 3.381516,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        -1.0854,
+        3.3815,
+        1.3373
+      ]
+    },
+    {
+      "key": "9392,50082->55571,57264",
+      "removeIds": [
+        9392,
+        50082
+      ],
+      "addIds": [
+        55571,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.541335,
+      "predictedScore": 0.576997,
+      "predictedDpsPercent": 0.541335,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5413,
+        0.0,
+        1.7831
+      ]
+    },
+    {
+      "key": "9392,62767->57264,63138",
+      "removeIds": [
+        9392,
+        62767
+      ],
+      "addIds": [
+        57264,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.308948,
+      "predictedScore": 0.344609,
+      "predictedDpsPercent": 0.308948,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3089,
+        0.0,
+        1.7831
+      ]
+    },
+    {
+      "key": "9392,47085->18239,55571",
+      "removeIds": [
+        9392,
+        47085
+      ],
+      "addIds": [
+        18239,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.51925,
+      "predictedScore": 0.51925,
+      "predictedDpsPercent": 0.51925,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5192,
+        0.0,
+        0
+      ]
+    },
+    {
+      "key": "13753,21974->13322,34907",
+      "removeIds": [
+        13753,
+        21974
+      ],
+      "addIds": [
+        13322,
+        34907
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.321264,
+      "predictedScore": 0.401502,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 0.108498,
+      "predictedManaRegenPercent": 4.011887,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2128,
+        0.1085,
+        4.0119
+      ]
+    },
+    {
+      "key": "7503,62767->55571,63138",
+      "removeIds": [
+        7503,
+        62767
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 2.054795,
+      "predictedScore": 2.054795,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        2.0548,
+        0.0,
+        0
+      ]
+    },
+    {
+      "key": "22315,62767->57264,63138",
+      "removeIds": [
+        22315,
+        62767
+      ],
+      "addIds": [
+        57264,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.702128,
+      "predictedScore": 1.544624,
+      "predictedDpsPercent": 1.702128,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -7.875186,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.7021,
+        0.0,
+        -7.8752
+      ]
+    },
+    {
+      "key": "21974,22315->12913,49515",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.086611,
+      "predictedScore": 2.042034,
+      "predictedDpsPercent": 0.957447,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": -2.228826,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.9574,
+        1.1292,
+        -2.2288
+      ]
+    },
+    {
+      "key": "22315,47085->48971,59650",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        48971,
+        59650
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.154594,
+      "predictedScore": 1.19917,
+      "predictedDpsPercent": 0.511651,
+      "predictedEhpPercent": 0.642942,
+      "predictedManaRegenPercent": 2.228826,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5117,
+        0.6429,
+        2.2288
+      ]
+    },
+    {
+      "key": "22315,50082->13322,55571",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        13322,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.91025,
+      "predictedScore": 1.720056,
+      "predictedDpsPercent": 0.478047,
+      "predictedEhpPercent": 1.432203,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.478,
+        1.4322,
+        -9.5097
+      ]
+    },
+    {
+      "key": "4432,50082->61320,63138",
+      "removeIds": [
+        4432,
+        50082
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT"
+      ],
+      "predictedUtility": 1.700285,
+      "predictedScore": 1.727031,
+      "predictedDpsPercent": -1.681231,
+      "predictedEhpPercent": 3.381516,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        -1.6812,
+        3.3815,
+        1.3373
+      ]
+    },
+    {
+      "key": "13753,22315->14057,63138",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        14057,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.216605,
+      "predictedScore": 3.053158,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 3.216605,
+      "predictedManaRegenPercent": -8.172363,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.0,
+        3.2166,
+        -8.1724
+      ]
+    },
+    {
+      "key": "7503,50082->7641,55571",
+      "removeIds": [
+        7503,
+        50082
+      ],
+      "addIds": [
+        7641,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.864747,
+      "predictedScore": 0.864747,
+      "predictedDpsPercent": 0.26908,
+      "predictedEhpPercent": 0.595667,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2691,
+        0.5957,
+        0
+      ]
+    },
+    {
+      "key": "47085,62767->57264,63138",
+      "removeIds": [
+        47085,
+        62767
+      ],
+      "addIds": [
+        57264,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.491388,
+      "predictedScore": 0.527049,
+      "predictedDpsPercent": 0.491388,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.4914,
+        0.0,
+        1.7831
+      ]
+    },
+    {
+      "key": "47085,50082->48971,55571",
+      "removeIds": [
+        47085,
+        50082
+      ],
+      "addIds": [
+        48971,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.725875,
+      "predictedScore": 0.725875,
+      "predictedDpsPercent": 0.725875,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.7259,
+        0.0,
+        0
+      ]
+    },
+    {
+      "key": "21974,23659->7641,59650",
+      "removeIds": [
+        21974,
+        23659
+      ],
+      "addIds": [
+        7641,
+        59650
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT",
+        "EHP_LOSS",
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": -0.316771,
+      "predictedScore": -0.082002,
+      "predictedDpsPercent": -0.212766,
+      "predictedEhpPercent": -0.104005,
+      "predictedManaRegenPercent": 11.738484,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        -0.2128,
+        -0.104,
+        11.7385
+      ]
+    },
+    {
+      "key": "4432,7503->7641,13322",
+      "removeIds": [
+        4432,
+        7503
+      ],
+      "addIds": [
+        7641,
+        13322
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.685255,
+      "predictedScore": 0.685255,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 0.685255,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.0,
+        0.6853,
+        0
+      ]
+    },
+    {
+      "key": "9392,50082->48971,55571",
+      "removeIds": [
+        9392,
+        50082
+      ],
+      "addIds": [
+        48971,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.541335,
+      "predictedScore": 0.541335,
+      "predictedDpsPercent": 0.541335,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5413,
+        0.0,
+        0
+      ]
+    },
+    {
+      "key": "13753,50082->13322,55571",
+      "removeIds": [
+        13753,
+        50082
+      ],
+      "addIds": [
+        13322,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.369407,
+      "predictedScore": 0.369407,
+      "predictedDpsPercent": 0.260909,
+      "predictedEhpPercent": 0.108498,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2609,
+        0.1085,
+        0
+      ]
+    },
+    {
+      "key": "9392,22315->57264,61320",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        57264,
+        61320
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.726996,
+      "predictedScore": 1.572464,
+      "predictedDpsPercent": 0.521714,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -7.726597,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5217,
+        1.2053,
+        -7.7266
+      ]
+    },
+    {
+      "key": "4432,25831->1031,55571",
+      "removeIds": [
+        4432,
+        25831
+      ],
+      "addIds": [
+        1031,
+        55571
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "EHP_LOSS",
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 0.842172,
+      "predictedScore": 0.851088,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": -1.106239,
+      "predictedManaRegenPercent": 0.445765,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.9484,
+        -1.1062,
+        0.4458
+      ]
+    },
+    {
+      "key": "22315,62767->48971,63138",
+      "removeIds": [
+        22315,
+        62767
+      ],
+      "addIds": [
+        48971,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.702128,
+      "predictedScore": 1.511934,
+      "predictedDpsPercent": 1.702128,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.7021,
+        0.0,
+        -9.5097
+      ]
+    },
+    {
+      "key": "50082,62767->55571,63138",
+      "removeIds": [
+        50082,
+        62767
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.232387,
+      "predictedScore": 0.232387,
+      "predictedDpsPercent": 0.232387,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 6,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2324,
+        0.0,
+        0
+      ]
+    },
+    {
+      "key": "21974,22315->12913,31973",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        31973
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.744848,
+      "predictedScore": 1.700272,
+      "predictedDpsPercent": 1.744848,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -2.228826,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.7448,
+        0.0,
+        -2.2288
+      ]
+    },
+    {
+      "key": "7503,62767->7641,63138",
+      "removeIds": [
+        7503,
+        62767
+      ],
+      "addIds": [
+        7641,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.595667,
+      "predictedScore": 0.595667,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 0.595667,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.0,
+        0.5957,
+        0
+      ]
+    },
+    {
+      "key": "9392,13753->7641,59650",
+      "removeIds": [
+        9392,
+        13753
+      ],
+      "addIds": [
+        7641,
+        59650
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT",
+        "EHP_LOSS",
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": -1.686634,
+      "predictedScore": -1.451865,
+      "predictedDpsPercent": -1.582629,
+      "predictedEhpPercent": -0.104005,
+      "predictedManaRegenPercent": 11.738484,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        -1.5826,
+        -0.104,
+        11.7385
+      ]
+    },
+    {
+      "key": "22315,47085->21934,55571",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        21934,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.903686,
+      "predictedScore": 1.713493,
+      "predictedDpsPercent": 1.903686,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.9037,
+        0.0,
+        -9.5097
+      ]
+    },
+    {
+      "key": "7503,47085->40075,49515",
+      "removeIds": [
+        7503,
+        47085
+      ],
+      "addIds": [
+        40075,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.215284,
+      "predictedScore": 1.215284,
+      "predictedDpsPercent": 0.08612,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.0861,
+        1.1292,
+        0
+      ]
+    },
+    {
+      "key": "13753,22315->13322,22473",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        13322,
+        22473
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.644969,
+      "predictedScore": 1.454776,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 1.432203,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2128,
+        1.4322,
+        -9.5097
+      ]
+    },
+    {
+      "key": "22315,50082->48971,57264",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        48971,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.588146,
+      "predictedScore": 1.433614,
+      "predictedDpsPercent": 1.588146,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -7.726597,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.5881,
+        0.0,
+        -7.7266
+      ]
+    },
+    {
+      "key": "25831,47085->48971,55571",
+      "removeIds": [
+        25831,
+        47085
+      ],
+      "addIds": [
+        48971,
+        55571
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 2.546183,
+      "predictedScore": 2.546183,
+      "predictedDpsPercent": 2.546183,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        2.5462,
+        0.0,
+        0
+      ]
+    },
+    {
+      "key": "9392,62767->48971,63138",
+      "removeIds": [
+        9392,
+        62767
+      ],
+      "addIds": [
+        48971,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.308948,
+      "predictedScore": 0.308948,
+      "predictedDpsPercent": 0.308948,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 6,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3089,
+        0.0,
+        0
+      ]
+    },
+    {
+      "key": "9392,22315->48971,61320",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        48971,
+        61320
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.726996,
+      "predictedScore": 1.536802,
+      "predictedDpsPercent": 0.521714,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5217,
+        1.2053,
+        -9.5097
+      ]
+    },
+    {
+      "key": "9392,47085->31973,55571",
+      "removeIds": [
+        9392,
+        47085
+      ],
+      "addIds": [
+        31973,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.246609,
+      "predictedScore": 0.246609,
+      "predictedDpsPercent": 0.246609,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 6,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2466,
+        0.0,
+        0
+      ]
+    },
+    {
+      "key": "21974,22315->12913,34907",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        34907
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.170213,
+      "predictedScore": 1.19993,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 1.485884,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.1702,
+        0.0,
+        1.4859
+      ]
+    },
+    {
+      "key": "13753,62767->55571,65893",
+      "removeIds": [
+        13753,
+        62767
+      ],
+      "addIds": [
+        55571,
+        65893
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "EHP_LOSS",
+        "ENERGY_SHIELD_LOSS",
+        "BLOCK_LOSS_spellBlockChance"
+      ],
+      "predictedUtility": -1.662669,
+      "predictedScore": -1.692387,
+      "predictedDpsPercent": 3.007869,
+      "predictedEhpPercent": -4.670538,
+      "predictedManaRegenPercent": -1.485884,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        3.0079,
+        -4.6705,
+        -1.4859
+      ]
+    },
+    {
+      "key": "4432,22315->1031,13322",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        1031,
+        13322
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.432347,
+      "predictedScore": 0.251069,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 0.325964,
+      "predictedManaRegenPercent": -9.063893,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 8,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.1064,
+        0.326,
+        -9.0639
+      ]
+    },
+    {
+      "key": "13753,23659->13322,22473",
+      "removeIds": [
+        13753,
+        23659
+      ],
+      "addIds": [
+        13322,
+        22473
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.0,
+      "predictedScore": 0.0,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 7,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.0,
+        0.0,
+        0
+      ]
+    },
+    {
+      "key": "22315,47085->12913,55571",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        12913,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.797303,
+      "predictedScore": 1.74084,
+      "predictedDpsPercent": 1.797303,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -2.82318,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.7973,
+        0.0,
+        -2.8232
+      ]
+    },
+    {
+      "key": "22315,50082->55571,55643",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        55571,
+        55643
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.758491,
+      "predictedScore": 1.568298,
+      "predictedDpsPercent": 0.373564,
+      "predictedEhpPercent": 1.384928,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3736,
+        1.3849,
+        -9.5097
+      ]
+    },
+    {
+      "key": "7503,25831->15117,55571",
+      "removeIds": [
+        7503,
+        25831
+      ],
+      "addIds": [
+        15117,
+        55571
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 2.388098,
+      "predictedScore": 2.397014,
+      "predictedDpsPercent": 2.161177,
+      "predictedEhpPercent": 0.226921,
+      "predictedManaRegenPercent": 0.445765,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        2.1612,
+        0.2269,
+        0.4458
+      ]
+    },
+    {
+      "key": "9392,22315->31973,55571",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        31973,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.461547,
+      "predictedScore": 1.271354,
+      "predictedDpsPercent": 1.461547,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.4615,
+        0.0,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,22315->7641,12913",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        7641,
+        12913
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.553114,
+      "predictedScore": 1.508537,
+      "predictedDpsPercent": 0.957447,
+      "predictedEhpPercent": 0.595667,
+      "predictedManaRegenPercent": -2.228826,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.9574,
+        0.5957,
+        -2.2288
+      ]
+    },
+    {
+      "key": "13753,22315->13322,55643",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        13322,
+        55643
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.597693,
+      "predictedScore": 1.4075,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 1.384928,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2128,
+        1.3849,
+        -9.5097
+      ]
+    },
+    {
+      "key": "22315,62767->55643,63138",
+      "removeIds": [
+        22315,
+        62767
+      ],
+      "addIds": [
+        55643,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.491311,
+      "predictedScore": 1.301117,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 1.384928,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.1064,
+        1.3849,
+        -9.5097
+      ]
+    },
+    {
+      "key": "7503,13753->14209,63138",
+      "removeIds": [
+        7503,
+        13753
+      ],
+      "addIds": [
+        14209,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT",
+        "ENERGY_SHIELD_LOSS",
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 2.122406,
+      "predictedScore": 2.149152,
+      "predictedDpsPercent": -0.106383,
+      "predictedEhpPercent": 2.228789,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        -0.1064,
+        2.2288,
+        1.3373
+      ]
+    },
+    {
+      "key": "4432,22315->1031,1822",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        1031,
+        1822
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.205426,
+      "predictedScore": 0.024148,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 0.099043,
+      "predictedManaRegenPercent": -9.063893,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 8,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.1064,
+        0.099,
+        -9.0639
+      ]
+    },
+    {
+      "key": "22315,47085->12913,48971",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        12913,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.448835,
+      "predictedScore": 1.392371,
+      "predictedDpsPercent": 1.448835,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -2.82318,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.4488,
+        0.0,
+        -2.8232
+      ]
+    },
+    {
+      "key": "22315,50082->1822,55571",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        1822,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.683329,
+      "predictedScore": 1.493136,
+      "predictedDpsPercent": 0.478047,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.478,
+        1.2053,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,22315->2292,48971",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        2292,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.914894,
+      "predictedScore": 1.804938,
+      "predictedDpsPercent": 1.914894,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -5.497771,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.9149,
+        0.0,
+        -5.4978
+      ]
+    },
+    {
+      "key": "4432,47085->1031,63138",
+      "removeIds": [
+        4432,
+        47085
+      ],
+      "addIds": [
+        1031,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT",
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": 1.301,
+      "predictedScore": 1.336661,
+      "predictedDpsPercent": -1.191743,
+      "predictedEhpPercent": 2.492742,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        -1.1917,
+        2.4927,
+        1.7831
+      ]
+    },
+    {
+      "key": "13753,22315->13322,38190",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        13322,
+        38190
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.427503,
+      "predictedScore": 1.23731,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 1.214737,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2128,
+        1.2147,
+        -9.5097
+      ]
+    },
+    {
+      "key": "9392,22315->12913,48971",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        12913,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.266395,
+      "predictedScore": 1.209931,
+      "predictedDpsPercent": 1.266395,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -2.82318,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.2664,
+        0.0,
+        -2.8232
+      ]
+    },
+    {
+      "key": "22315,47085->57264,61320",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        57264,
+        61320
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.909436,
+      "predictedScore": 1.754904,
+      "predictedDpsPercent": 0.704154,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -7.726597,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.7042,
+        1.2053,
+        -7.7266
+      ]
+    },
+    {
+      "key": "22315,50082->55571,61320",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        55571,
+        61320
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.650435,
+      "predictedScore": 1.460242,
+      "predictedDpsPercent": 0.445153,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.4452,
+        1.2053,
+        -9.5097
+      ]
+    },
+    {
+      "key": "4432,50082->1031,63138",
+      "removeIds": [
+        4432,
+        50082
+      ],
+      "addIds": [
+        1031,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT",
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": 0.705128,
+      "predictedScore": 0.74079,
+      "predictedDpsPercent": -1.787614,
+      "predictedEhpPercent": 2.492742,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        -1.7876,
+        2.4927,
+        1.7831
+      ]
+    },
+    {
+      "key": "21974,22315->13322,34907",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        13322,
+        34907
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.857735,
+      "predictedScore": 1.747779,
+      "predictedDpsPercent": 0.425532,
+      "predictedEhpPercent": 1.432203,
+      "predictedManaRegenPercent": -5.497771,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.4255,
+        1.4322,
+        -5.4978
+      ]
+    },
+    {
+      "key": "13753,22315->13322,61320",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        13322,
+        61320
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.418048,
+      "predictedScore": 1.227855,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2128,
+        1.2053,
+        -9.5097
+      ]
+    },
+    {
+      "key": "9392,22315->49515,55571",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        49515,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.814096,
+      "predictedScore": 1.623902,
+      "predictedDpsPercent": 0.684932,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.6849,
+        1.1292,
+        -9.5097
+      ]
+    },
+    {
+      "key": "22315,47085->48971,61320",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        48971,
+        61320
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.909436,
+      "predictedScore": 1.719243,
+      "predictedDpsPercent": 0.704154,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.7042,
+        1.2053,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,25831->49515,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        49515,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.834529,
+      "predictedScore": 4.861274,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.728146,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.1064,
+        4.7281,
+        1.3373
+      ]
+    },
+    {
+      "key": "22315,50082->40075,55571",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        40075,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.52288,
+      "predictedScore": 1.332686,
+      "predictedDpsPercent": 1.52288,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.5229,
+        0.0,
+        -9.5097
+      ]
+    },
+    {
+      "key": "13753,22315->1822,55643",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        1822,
+        55643
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.370773,
+      "predictedScore": 1.180579,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 1.158007,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2128,
+        1.158,
+        -9.5097
+      ]
+    },
+    {
+      "key": "9392,22315->14057,55571",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        14057,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.777673,
+      "predictedScore": 1.58748,
+      "predictedDpsPercent": 0.789857,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.7899,
+        0.9878,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,22315->1822,2292",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        1822,
+        2292
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.630814,
+      "predictedScore": 1.520858,
+      "predictedDpsPercent": 0.425532,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -5.497771,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.4255,
+        1.2053,
+        -5.4978
+      ]
+    },
+    {
+      "key": "21974,62767->55571,63138",
+      "removeIds": [
+        21974,
+        62767
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 2.054795,
+      "predictedScore": 2.054795,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        2.0548,
+        0.0,
+        0
+      ]
+    },
+    {
+      "key": "22315,47085->21934,57264",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        21934,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.555218,
+      "predictedScore": 1.400686,
+      "predictedDpsPercent": 1.555218,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -7.726597,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.5552,
+        0.0,
+        -7.7266
+      ]
+    },
+    {
+      "key": "22315,50082->12913,55571",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        12913,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.189834,
+      "predictedScore": 1.133371,
+      "predictedDpsPercent": 1.189834,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -2.82318,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.1898,
+        0.0,
+        -2.8232
+      ]
+    },
+    {
+      "key": "9392,22315->49515,57264",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        49515,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.461429,
+      "predictedScore": 1.303925,
+      "predictedDpsPercent": 0.332265,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": -7.875186,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3323,
+        1.1292,
+        -7.8752
+      ]
+    },
+    {
+      "key": "21974,22315->2292,40075",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        2292,
+        40075
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.489362,
+      "predictedScore": 1.379406,
+      "predictedDpsPercent": 1.489362,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -5.497771,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.4894,
+        0.0,
+        -5.4978
+      ]
+    },
+    {
+      "key": "7503,21974->14057,63138",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        14057,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.799564,
+      "predictedScore": 4.826309,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 4.586798,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.2128,
+        4.5868,
+        1.3373
+      ]
+    },
+    {
+      "key": "22315,47085->31973,55571",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        31973,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.642346,
+      "predictedScore": 1.452153,
+      "predictedDpsPercent": 1.642346,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.6423,
+        0.0,
+        -9.5097
+      ]
+    },
+    {
+      "key": "22315,50082->13322,57264",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        13322,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.557583,
+      "predictedScore": 1.400079,
+      "predictedDpsPercent": 0.12538,
+      "predictedEhpPercent": 1.432203,
+      "predictedManaRegenPercent": -7.875186,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.1254,
+        1.4322,
+        -7.8752
+      ]
+    },
+    {
+      "key": "9392,22315->5743,57264",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        5743,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.403147,
+      "predictedScore": 1.248615,
+      "predictedDpsPercent": 0.415331,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -7.726597,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.4153,
+        0.9878,
+        -7.7266
+      ]
+    },
+    {
+      "key": "22315,47085->21934,48971",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        21934,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.555218,
+      "predictedScore": 1.365025,
+      "predictedDpsPercent": 1.555218,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.5552,
+        0.0,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,25831->14057,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        14057,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.799564,
+      "predictedScore": 4.826309,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 4.586798,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.2128,
+        4.5868,
+        1.3373
+      ]
+    },
+    {
+      "key": "21974,22315->18239,34907",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        18239,
+        34907
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.276596,
+      "predictedScore": 1.16664,
+      "predictedDpsPercent": 1.276596,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -5.497771,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.2766,
+        0.0,
+        -5.4978
+      ]
+    },
+    {
+      "key": "9392,22315->14057,57264",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        14057,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.425006,
+      "predictedScore": 1.267503,
+      "predictedDpsPercent": 0.43719,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -7.875186,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.4372,
+        0.9878,
+        -7.8752
+      ]
+    },
+    {
+      "key": "22315,50082->13322,48971",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        13322,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.557583,
+      "predictedScore": 1.367389,
+      "predictedDpsPercent": 0.12538,
+      "predictedEhpPercent": 1.432203,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.1254,
+        1.4322,
+        -9.5097
+      ]
+    },
+    {
+      "key": "22315,47085->49515,55571",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        49515,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.993482,
+      "predictedScore": 1.803289,
+      "predictedDpsPercent": 0.864318,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.8643,
+        1.1292,
+        -9.5097
+      ]
+    },
+    {
+      "key": "4432,13753->1031,55571",
+      "removeIds": [
+        4432,
+        13753
+      ],
+      "addIds": [
+        1031,
+        55571
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "EHP_LOSS",
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": -0.69867,
+      "predictedScore": -0.689755,
+      "predictedDpsPercent": 1.731274,
+      "predictedEhpPercent": -2.429944,
+      "predictedManaRegenPercent": 0.445765,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.7313,
+        -2.4299,
+        0.4458
+      ]
+    },
+    {
+      "key": "9392,22315->21934,57264",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        21934,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.372778,
+      "predictedScore": 1.218246,
+      "predictedDpsPercent": 1.372778,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -7.726597,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.3728,
+        0.0,
+        -7.7266
+      ]
+    },
+    {
+      "key": "22315,50082->14057,55571",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        14057,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.326587,
+      "predictedScore": 1.136393,
+      "predictedDpsPercent": 0.33877,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3388,
+        0.9878,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,22315->2292,55643",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        2292,
+        55643
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.704076,
+      "predictedScore": 1.594121,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 1.384928,
+      "predictedManaRegenPercent": -5.497771,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3191,
+        1.3849,
+        -5.4978
+      ]
+    },
+    {
+      "key": "22315,47085->14057,55571",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        14057,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.934056,
+      "predictedScore": 1.743862,
+      "predictedDpsPercent": 0.946239,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.9462,
+        0.9878,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,62767->57264,63138",
+      "removeIds": [
+        21974,
+        62767
+      ],
+      "addIds": [
+        57264,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 1.702128,
+      "predictedScore": 1.737789,
+      "predictedDpsPercent": 1.702128,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.7021,
+        0.0,
+        1.7831
+      ]
+    },
+    {
+      "key": "9392,22315->48971,49515",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        48971,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.461429,
+      "predictedScore": 1.271236,
+      "predictedDpsPercent": 0.332265,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3323,
+        1.1292,
+        -9.5097
+      ]
+    },
+    {
+      "key": "22315,50082->55643,57264",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        55643,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.405824,
+      "predictedScore": 1.24832,
+      "predictedDpsPercent": 0.020897,
+      "predictedEhpPercent": 1.384928,
+      "predictedManaRegenPercent": -7.875186,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.0209,
+        1.3849,
+        -7.8752
+      ]
+    },
+    {
+      "key": "22315,47085->49515,57264",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        49515,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.640816,
+      "predictedScore": 1.483312,
+      "predictedDpsPercent": 0.511651,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": -7.875186,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5117,
+        1.1292,
+        -7.8752
+      ]
+    },
+    {
+      "key": "9392,22315->14057,48971",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        14057,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.425006,
+      "predictedScore": 1.234813,
+      "predictedDpsPercent": 0.43719,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.4372,
+        0.9878,
+        -9.5097
+      ]
+    },
+    {
+      "key": "4432,25831->1031,57264",
+      "removeIds": [
+        4432,
+        25831
+      ],
+      "addIds": [
+        1031,
+        57264
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "EHP_LOSS",
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 0.489506,
+      "predictedScore": 0.534082,
+      "predictedDpsPercent": 1.595745,
+      "predictedEhpPercent": -1.106239,
+      "predictedManaRegenPercent": 2.228826,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.5957,
+        -1.1062,
+        2.2288
+      ]
+    },
+    {
+      "key": "21974,22315->48514,48971",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        48514,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.914894,
+      "predictedScore": 1.903007,
+      "predictedDpsPercent": 1.914894,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -0.594354,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.9149,
+        0.0,
+        -0.5944
+      ]
+    },
+    {
+      "key": "22315,50082->1822,57264",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        1822,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.330662,
+      "predictedScore": 1.173158,
+      "predictedDpsPercent": 0.12538,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -7.875186,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.1254,
+        1.2053,
+        -7.8752
+      ]
+    },
+    {
+      "key": "22315,47085->14057,57264",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        14057,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.585587,
+      "predictedScore": 1.431055,
+      "predictedDpsPercent": 0.597771,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -7.726597,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5978,
+        0.9878,
+        -7.7266
+      ]
+    },
+    {
+      "key": "9392,22315->5743,48971",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        5743,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.403147,
+      "predictedScore": 1.212954,
+      "predictedDpsPercent": 0.415331,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.4153,
+        0.9878,
+        -9.5097
+      ]
+    },
+    {
+      "key": "7503,21974->49515,63138",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        49515,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.834529,
+      "predictedScore": 4.861274,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.728146,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.1064,
+        4.7281,
+        1.3373
+      ]
+    },
+    {
+      "key": "21974,22315->13322,48514",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        13322,
+        48514
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.857735,
+      "predictedScore": 1.845848,
+      "predictedDpsPercent": 0.425532,
+      "predictedEhpPercent": 1.432203,
+      "predictedManaRegenPercent": -0.594354,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.4255,
+        1.4322,
+        -0.5944
+      ]
+    },
+    {
+      "key": "22315,50082->57264,61320",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        57264,
+        61320
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.304066,
+      "predictedScore": 1.149534,
+      "predictedDpsPercent": 0.098784,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -7.726597,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.0988,
+        1.2053,
+        -7.7266
+      ]
+    },
+    {
+      "key": "22315,47085->48971,49515",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        48971,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.640816,
+      "predictedScore": 1.450622,
+      "predictedDpsPercent": 0.511651,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5117,
+        1.1292,
+        -9.5097
+      ]
+    },
+    {
+      "key": "9392,22315->21934,48971",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        21934,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.372778,
+      "predictedScore": 1.182584,
+      "predictedDpsPercent": 1.372778,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.3728,
+        0.0,
+        -9.5097
+      ]
+    },
+    {
+      "key": "4432,62767->1031,65893",
+      "removeIds": [
+        4432,
+        62767
+      ],
+      "addIds": [
+        1031,
+        65893
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "EHP_LOSS",
+        "ENERGY_SHIELD_LOSS",
+        "BLOCK_LOSS_spellBlockChance"
+      ],
+      "predictedUtility": -3.389243,
+      "predictedScore": -3.410045,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": -4.453073,
+      "predictedManaRegenPercent": -1.040119,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.0638,
+        -4.4531,
+        -1.0401
+      ]
+    },
+    {
+      "key": "21974,22315->1822,48514",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        1822,
+        48514
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.630814,
+      "predictedScore": 1.618927,
+      "predictedDpsPercent": 0.425532,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -0.594354,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.4255,
+        1.2053,
+        -0.5944
+      ]
+    },
+    {
+      "key": "22315,50082->48971,55643",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        48971,
+        55643
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.405824,
+      "predictedScore": 1.215631,
+      "predictedDpsPercent": 0.020897,
+      "predictedEhpPercent": 1.384928,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.0209,
+        1.3849,
+        -9.5097
+      ]
+    },
+    {
+      "key": "22315,47085->14057,48971",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        14057,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.585587,
+      "predictedScore": 1.395394,
+      "predictedDpsPercent": 0.597771,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5978,
+        0.9878,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,22315->14057,34907",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        14057,
+        34907
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.306965,
+      "predictedScore": 1.19701,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -5.497771,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 6,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3191,
+        0.9878,
+        -5.4978
+      ]
+    },
+    {
+      "key": "4432,13753->1031,63138",
+      "removeIds": [
+        4432,
+        13753
+      ],
+      "addIds": [
+        1031,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT",
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": 0.909784,
+      "predictedScore": 0.945446,
+      "predictedDpsPercent": -0.212766,
+      "predictedEhpPercent": 1.12255,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        -0.2128,
+        1.1225,
+        1.7831
+      ]
+    },
+    {
+      "key": "22315,50082->1822,48971",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        1822,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.330662,
+      "predictedScore": 1.140469,
+      "predictedDpsPercent": 0.12538,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.1254,
+        1.2053,
+        -9.5097
+      ]
+    },
+    {
+      "key": "22315,47085->13322,21934",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        13322,
+        21934
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.515789,
+      "predictedScore": 1.325596,
+      "predictedDpsPercent": 0.083587,
+      "predictedEhpPercent": 1.432203,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.0836,
+        1.4322,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,22315->2292,55571",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        2292,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedScore": 2.157605,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -5.497771,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        2.2676,
+        0.0,
+        -5.4978
+      ]
+    },
+    {
+      "key": "22315,50082->49515,55571",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        49515,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.398244,
+      "predictedScore": 1.208051,
+      "predictedDpsPercent": 0.26908,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 6,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2691,
+        1.1292,
+        -9.5097
+      ]
+    },
+    {
+      "key": "13753,62767->63138,65893",
+      "removeIds": [
+        13753,
+        62767
+      ],
+      "addIds": [
+        63138,
+        65893
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "EHP_LOSS",
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": -0.054214,
+      "predictedScore": -0.057186,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": -1.118044,
+      "predictedManaRegenPercent": -0.148588,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.0638,
+        -1.118,
+        -0.1486
+      ]
+    },
+    {
+      "key": "22315,47085->40075,61320",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        40075,
+        61320
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.48897,
+      "predictedScore": 1.298777,
+      "predictedDpsPercent": 0.283688,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2837,
+        1.2053,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,22315->2292,57264",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        2292,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.914894,
+      "predictedScore": 1.837628,
+      "predictedDpsPercent": 1.914894,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -3.863299,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.9149,
+        0.0,
+        -3.8633
+      ]
+    },
+    {
+      "key": "22315,47085->7641,55571",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        7641,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.459986,
+      "predictedScore": 1.269792,
+      "predictedDpsPercent": 0.864318,
+      "predictedEhpPercent": 0.595667,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.8643,
+        0.5957,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,22315->2292,49515",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        2292,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.34193,
+      "predictedScore": 1.231975,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": -5.497771,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 7,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2128,
+        1.1292,
+        -5.4978
+      ]
+    },
+    {
+      "key": "4432,21974->1031,13322",
+      "removeIds": [
+        4432,
+        21974
+      ],
+      "addIds": [
+        1031,
+        13322
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 0.432347,
+      "predictedScore": 0.441262,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 0.325964,
+      "predictedManaRegenPercent": 0.445765,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.1064,
+        0.326,
+        0.4458
+      ]
+    },
+    {
+      "key": "21974,22315->40075,48514",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        40075,
+        48514
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.489362,
+      "predictedScore": 1.477475,
+      "predictedDpsPercent": 1.489362,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -0.594354,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.4894,
+        0.0,
+        -0.5944
+      ]
+    },
+    {
+      "key": "21974,22315->12913,48514",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        48514
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.170213,
+      "predictedScore": 1.292055,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 6.092125,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.1702,
+        0.0,
+        6.0921
+      ]
+    },
+    {
+      "key": "21974,22315->48514,55643",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        48514,
+        55643
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.704076,
+      "predictedScore": 1.692189,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 1.384928,
+      "predictedManaRegenPercent": -0.594354,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3191,
+        1.3849,
+        -0.5944
+      ]
+    },
+    {
+      "key": "21974,22315->18239,48514",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        18239,
+        48514
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.276596,
+      "predictedScore": 1.264709,
+      "predictedDpsPercent": 1.276596,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -0.594354,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.2766,
+        0.0,
+        -0.5944
+      ]
+    },
+    {
+      "key": "50082,62767->57264,63138",
+      "removeIds": [
+        50082,
+        62767
+      ],
+      "addIds": [
+        57264,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT"
+      ],
+      "predictedUtility": -0.113982,
+      "predictedScore": -0.078321,
+      "predictedDpsPercent": -0.113982,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        -0.114,
+        0.0,
+        1.7831
+      ]
+    },
+    {
+      "key": "21974,22315->14057,48514",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        14057,
+        48514
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.306965,
+      "predictedScore": 1.295078,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -0.594354,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 3,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3191,
+        0.9878,
+        -0.5944
+      ]
+    },
+    {
+      "key": "21974,22315->48514,49515",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        48514,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.34193,
+      "predictedScore": 1.330043,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": -0.594354,
+      "selectionMode": "pareto_guided",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 4,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.2128,
+        1.1292,
+        -0.5944
+      ]
+    },
+    {
+      "key": "21974,23659->12032,34907",
+      "removeIds": [
+        21974,
+        23659
+      ],
+      "addIds": [
+        12032,
+        34907
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "EHP_LOSS",
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": -1.323705,
+      "predictedScore": -1.243467,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": -1.323705,
+      "predictedManaRegenPercent": 4.011887,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 5,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.0,
+        -1.3237,
+        4.0119
+      ]
+    },
+    {
+      "key": "4432,62767->13322,61320",
+      "removeIds": [
+        4432,
+        62767
+      ],
+      "addIds": [
+        13322,
+        61320
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "EHP_LOSS",
+        "RESISTANCE_LOSS_fireResist",
+        "RESISTANCE_LOSS_coldResist",
+        "BLOCK_LOSS_spellBlockChance"
+      ],
+      "predictedUtility": -4.376888,
+      "predictedScore": -4.406606,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": -4.483271,
+      "predictedManaRegenPercent": -1.485884,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 10,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.1064,
+        -4.4833,
+        -1.4859
+      ]
+    },
+    {
+      "key": "21974,22315->61320,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 5.123412,
+      "predictedScore": 4.962937,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 4.804263,
+      "predictedManaRegenPercent": -8.023774,
+      "selectionMode": "exploration",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.3191,
+        4.8043,
+        -8.0238
+      ]
+    },
+    {
+      "key": "7503,9392->49515,55571",
+      "removeIds": [
+        7503,
+        9392
+      ],
+      "addIds": [
+        49515,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.814096,
+      "predictedScore": 1.814096,
+      "predictedDpsPercent": 0.684932,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.6849,
+        1.1292,
+        0
+      ]
+    },
+    {
+      "key": "7503,21974->7641,12913",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        7641,
+        12913
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.553114,
+      "predictedScore": 1.698731,
+      "predictedDpsPercent": 0.957447,
+      "predictedEhpPercent": 0.595667,
+      "predictedManaRegenPercent": 7.280832,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.9574,
+        0.5957,
+        7.2808
+      ]
+    },
+    {
+      "key": "7503,47085->49515,57264",
+      "removeIds": [
+        7503,
+        47085
+      ],
+      "addIds": [
+        49515,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.640816,
+      "predictedScore": 1.676477,
+      "predictedDpsPercent": 0.511651,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5117,
+        1.1292,
+        1.7831
+      ]
+    },
+    {
+      "key": "21974,47085->12913,57264",
+      "removeIds": [
+        21974,
+        47085
+      ],
+      "addIds": [
+        12913,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.448835,
+      "predictedScore": 1.630113,
+      "predictedDpsPercent": 1.448835,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 9.063893,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 1,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.4488,
+        0.0,
+        9.0639
+      ]
+    },
+    {
+      "key": "7503,9392->49515,57264",
+      "removeIds": [
+        7503,
+        9392
+      ],
+      "addIds": [
+        49515,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.461429,
+      "predictedScore": 1.49709,
+      "predictedDpsPercent": 0.332265,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": 1.783061,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.3323,
+        1.1292,
+        1.7831
+      ]
+    },
+    {
+      "key": "21974,50082->12913,55571",
+      "removeIds": [
+        21974,
+        50082
+      ],
+      "addIds": [
+        12913,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.189834,
+      "predictedScore": 1.335451,
+      "predictedDpsPercent": 1.189834,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 7.280832,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.1898,
+        0.0,
+        7.2808
+      ]
+    },
+    {
+      "key": "21974,50082->12913,57264",
+      "removeIds": [
+        21974,
+        50082
+      ],
+      "addIds": [
+        12913,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.843465,
+      "predictedScore": 1.024743,
+      "predictedDpsPercent": 0.843465,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 9.063893,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.8435,
+        0.0,
+        9.0639
+      ]
+    },
+    {
+      "key": "21974,22315->12913,48971",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.659574,
+      "predictedScore": 2.614998,
+      "predictedDpsPercent": 2.659574,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -2.228826,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        2.6596,
+        0.0,
+        -2.2288
+      ]
+    },
+    {
+      "key": "21974,22315->12913,13322",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        13322
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.602415,
+      "predictedScore": 2.557839,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.432203,
+      "predictedManaRegenPercent": -2.228826,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 1,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.1702,
+        1.4322,
+        -2.2288
+      ]
+    },
+    {
+      "key": "21974,22315->12913,55643",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        55643
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.448757,
+      "predictedScore": 2.404181,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 1.384928,
+      "predictedManaRegenPercent": -2.228826,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.0638,
+        1.3849,
+        -2.2288
+      ]
+    },
+    {
+      "key": "21974,22315->12913,38190",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        38190
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.375495,
+      "predictedScore": 2.330918,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.205282,
+      "predictedManaRegenPercent": -2.228826,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.1702,
+        1.2053,
+        -2.2288
+      ]
+    },
+    {
+      "key": "21974,22315->48514,55571",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        48514,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedScore": 2.255673,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -0.594354,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        2.2676,
+        0.0,
+        -0.5944
+      ]
+    },
+    {
+      "key": "21974,22315->12913,40075",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        40075
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.234043,
+      "predictedScore": 2.189466,
+      "predictedDpsPercent": 2.234043,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -2.228826,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        2.234,
+        0.0,
+        -2.2288
+      ]
+    },
+    {
+      "key": "21974,22315->12913,14057",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        14057
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.051646,
+      "predictedScore": 2.007069,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 0.987816,
+      "predictedManaRegenPercent": -2.228826,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.0638,
+        0.9878,
+        -2.2288
+      ]
+    },
+    {
+      "key": "13753,22315->13322,55571",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        13322,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.15892,
+      "predictedScore": 1.968727,
+      "predictedDpsPercent": 2.050423,
+      "predictedEhpPercent": 0.108498,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        2.0504,
+        0.1085,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,22315->48514,57264",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        48514,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.914894,
+      "predictedScore": 1.935696,
+      "predictedDpsPercent": 1.914894,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 1.040119,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.9149,
+        0.0,
+        1.0401
+      ]
+    },
+    {
+      "key": "21974,22315->12913,59650",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        59650
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.600389,
+      "predictedScore": 1.793554,
+      "predictedDpsPercent": 0.957447,
+      "predictedEhpPercent": 0.642942,
+      "predictedManaRegenPercent": 9.658247,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.9574,
+        0.6429,
+        9.6582
+      ]
+    },
+    {
+      "key": "13753,22315->13322,57264",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        13322,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.810626,
+      "predictedScore": 1.656094,
+      "predictedDpsPercent": 1.702128,
+      "predictedEhpPercent": 0.108498,
+      "predictedManaRegenPercent": -7.726597,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.7021,
+        0.1085,
+        -7.7266
+      ]
+    },
+    {
+      "key": "7503,47085->48971,49515",
+      "removeIds": [
+        7503,
+        47085
+      ],
+      "addIds": [
+        48971,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.640816,
+      "predictedScore": 1.640816,
+      "predictedDpsPercent": 0.511651,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": 0,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        0.5117,
+        1.1292,
+        0
+      ]
+    },
+    {
+      "key": "13753,22315->13322,48971",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        13322,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.810626,
+      "predictedScore": 1.620432,
+      "predictedDpsPercent": 1.702128,
+      "predictedEhpPercent": 0.108498,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.7021,
+        0.1085,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,47085->12913,48971",
+      "removeIds": [
+        21974,
+        47085
+      ],
+      "addIds": [
+        12913,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.448835,
+      "predictedScore": 1.594451,
+      "predictedDpsPercent": 1.448835,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 7.280832,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.4488,
+        0.0,
+        7.2808
+      ]
+    },
+    {
+      "key": "7503,21974->48514,49515",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        48514,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.34193,
+      "predictedScore": 1.520236,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 1.129164,
+      "predictedManaRegenPercent": 8.915305,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 1,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.2128,
+        1.1292,
+        8.9153
+      ]
+    },
+    {
+      "key": "22315,47085->12913,57264",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        12913,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.448835,
+      "predictedScore": 1.428032,
+      "predictedDpsPercent": 1.448835,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": -1.040119,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.4488,
+        0.0,
+        -1.0401
+      ]
+    },
+    {
+      "key": "22315,62767->63138,65893",
+      "removeIds": [
+        22315,
+        62767
+      ],
+      "addIds": [
+        63138,
+        65893
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.528744,
+      "predictedScore": 1.338551,
+      "predictedDpsPercent": 1.276596,
+      "predictedEhpPercent": 0.252148,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.2766,
+        0.2521,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,22315->1031,12913",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        1031,
+        12913
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.290751,
+      "predictedScore": 1.255089,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 0.226921,
+      "predictedManaRegenPercent": -1.783061,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.0638,
+        0.2269,
+        -1.7831
+      ]
+    },
+    {
+      "key": "21974,47085->48514,55571",
+      "removeIds": [
+        21974,
+        47085
+      ],
+      "addIds": [
+        48514,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.052622,
+      "predictedScore": 1.230929,
+      "predictedDpsPercent": 1.052622,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 8.915305,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 1,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.0526,
+        0.0,
+        8.9153
+      ]
+    },
+    {
+      "key": "13753,22315->13322,40075",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        13322,
+        40075
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.385094,
+      "predictedScore": 1.1949,
+      "predictedDpsPercent": 1.276596,
+      "predictedEhpPercent": 0.108498,
+      "predictedManaRegenPercent": -9.509658,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.2766,
+        0.1085,
+        -9.5097
+      ]
+    },
+    {
+      "key": "21974,47085->12913,40075",
+      "removeIds": [
+        21974,
+        47085
+      ],
+      "addIds": [
+        12913,
+        40075
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.028369,
+      "predictedScore": 1.173985,
+      "predictedDpsPercent": 1.028369,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 7.280832,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": true,
+        "dominatedByCount": 2,
+        "dominatesFrontierCount": 0,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": false
+      },
+      "predictedProfile": [
+        1.0284,
+        0.0,
+        7.2808
+      ]
+    },
+    {
+      "key": "21974,25831->61320,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 5.123412,
+      "predictedScore": 5.150158,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 4.804263,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 2,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.3191,
+        4.8043,
+        1.3373
+      ]
+    },
+    {
+      "key": "21974,25831->40075,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        40075,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.98196,
+      "predictedScore": 5.008706,
+      "predictedDpsPercent": 1.382979,
+      "predictedEhpPercent": 3.598982,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 5,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.383,
+        3.599,
+        1.3373
+      ]
+    },
+    {
+      "key": "25831,47085->55571,63138",
+      "removeIds": [
+        25831,
+        47085
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.568416,
+      "predictedScore": 4.595162,
+      "predictedDpsPercent": 0.969435,
+      "predictedEhpPercent": 3.598982,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 2,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.9694,
+        3.599,
+        1.3373
+      ]
+    },
+    {
+      "key": "7503,21974->61320,63138",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 5.123412,
+      "predictedScore": 5.150158,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 4.804263,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 2,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        0.3191,
+        4.8043,
+        1.3373
+      ]
+    },
+    {
+      "key": "7503,21974->40075,63138",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        40075,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.98196,
+      "predictedScore": 5.008706,
+      "predictedDpsPercent": 1.382979,
+      "predictedEhpPercent": 3.598982,
+      "predictedManaRegenPercent": 1.337296,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 5,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.383,
+        3.599,
+        1.3373
+      ]
+    },
+    {
+      "key": "21974,25831->12913,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        12913,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.662811,
+      "predictedScore": 4.835174,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 3.598982,
+      "predictedManaRegenPercent": 8.618128,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 5,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.0638,
+        3.599,
+        8.6181
+      ]
+    },
+    {
+      "key": "7503,21974->12913,63138",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        12913,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 4.662811,
+      "predictedScore": 4.835174,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 3.598982,
+      "predictedManaRegenPercent": 8.618128,
+      "selectionMode": "already_completed",
+      "paretoPrediction": {
+        "isDominated": false,
+        "dominatedByCount": 0,
+        "dominatesFrontierCount": 5,
+        "equivalentFrontierCount": 0,
+        "isParetoCandidate": true
+      },
+      "predictedProfile": [
+        1.0638,
+        3.599,
+        8.6181
+      ]
+    }
+  ]
+}

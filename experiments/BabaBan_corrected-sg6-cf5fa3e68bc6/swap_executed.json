@@ -1,0 +1,6130 @@
+{
+  "version": "0.1",
+  "xmlPath": "D:\\Dev\\pob\\pob1-ai-api\\test_builds\\BabaBan_corrected.xml",
+  "xmlSha256": "cf5fa3e68bc6aa5c5ca2ee1b1d14231f8f32bf25323886d771bf7ece921766b0",
+  "skillGroup": 6,
+  "sourceHashesVerified": true,
+  "baseline": {
+    "ascendClassName": "Occultist",
+    "className": "Witch",
+    "engine": "Path of Building Headless",
+    "extraPoints": 1,
+    "level": 99,
+    "ok": true,
+    "passiveExperiment": null,
+    "passivePointsUsed": 122,
+    "removalExperiment": null,
+    "stats": {
+      "armour": 1869,
+      "blockChance": 28,
+      "blockChanceMax": 75,
+      "chaosResist": 56,
+      "coldResist": 75,
+      "combinedDPS": 3384177.080482,
+      "critChance": 0,
+      "critMultiplier": 1.5,
+      "effectiveSpellSuppressionChance": 0,
+      "energyShield": 9846,
+      "energyShieldRecharge": 3052,
+      "energyShieldRegen": 296.9,
+      "evasion": 24,
+      "fireResist": 75,
+      "fullDPS": 0,
+      "life": 1,
+      "lifeCost": 0,
+      "lifeRegen": 0,
+      "lifeUnreserved": 1,
+      "lightningResist": 76,
+      "mana": 1822,
+      "manaCost": 50,
+      "manaPerSecond": null,
+      "manaRegen": 67.3,
+      "manaUnreserved": 607,
+      "movementSpeedMod": 1.32,
+      "speed": 1.6875,
+      "spellBlockChance": 61,
+      "spellBlockChanceMax": 78,
+      "spellSuppressionChance": 0,
+      "spellSuppressionEffect": 40,
+      "totalDPS": 0,
+      "totalDotDPS": 3384177.080482,
+      "totalEHP": 48879.437330441
+    },
+    "validation": {
+      "attributeRequirementsMet": true,
+      "attributes": {
+        "dex": 119,
+        "int": 401,
+        "str": 128
+      },
+      "problems": [],
+      "requirements": {
+        "dex": 91,
+        "int": 272,
+        "str": 108
+      },
+      "specialRequirements": {
+        "reqDex": 91,
+        "reqInt": 272,
+        "reqStr": 108
+      },
+      "strengthRequirementSource": {
+        "name": "Damnation Goad, Battery Staff",
+        "type": "Item"
+      }
+    }
+  },
+  "planned": 72,
+  "results": [
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 69537.88521539979,
+      "actualDpsChange": 69537.88521539979,
+      "dpsGainPercent": 2.0548,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3453714.9656974,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 2757,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3453714.9656974,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 69537.88521539979,
+      "actualDpsChange": 69537.88521539979,
+      "dpsGainPercent": 2.0548,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3453714.9656974,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3453714.9656974,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 69537.88521539979,
+      "actualDpsChange": 69537.88521539979,
+      "dpsGainPercent": 2.0548,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3453714.9656974,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 60.9,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3453714.9656974,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 69537.88521539979,
+      "actualDpsChange": 69537.88521539979,
+      "dpsGainPercent": 2.0548,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3453714.9656974,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3453714.9656974,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 57603.01413579984,
+      "actualDpsChange": 57603.01413579984,
+      "dpsGainPercent": 1.7021,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3441780.0946178,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 2757,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3441780.0946178,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 57603.01413579984,
+      "actualDpsChange": 57603.01413579984,
+      "dpsGainPercent": 1.7021,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3441780.0946178,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 2757,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1854,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 68.5,
+        "manaUnreserved": 618,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3441780.0946178,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 57603.01413579984,
+      "actualDpsChange": 57603.01413579984,
+      "dpsGainPercent": 1.7021,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3441780.0946178,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3441780.0946178,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 57603.01413579984,
+      "actualDpsChange": 57603.01413579984,
+      "dpsGainPercent": 1.7021,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3441780.0946178,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1854,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 68.5,
+        "manaUnreserved": 542,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3441780.0946178,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 57603.01413579984,
+      "actualDpsChange": 57603.01413579984,
+      "dpsGainPercent": 1.7021,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3441780.0946178,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 60.9,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3441780.0946178,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 57603.01413579984,
+      "actualDpsChange": 57603.01413579984,
+      "dpsGainPercent": 1.7021,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3441780.0946178,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1854,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 62,
+        "manaUnreserved": 618,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3441780.0946178,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 57603.01413579984,
+      "actualDpsChange": 57603.01413579984,
+      "dpsGainPercent": 1.7021,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3441780.0946178,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3441780.0946178,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 57603.01413579984,
+      "actualDpsChange": 57603.01413579984,
+      "dpsGainPercent": 1.7021,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3441780.0946178,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1854,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 68.5,
+        "manaUnreserved": 542,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3441780.0946178,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "actualDpsChange": 43202.26060190005,
+      "dpsGainPercent": 1.2766,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3427379.3410839,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 2757,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3427379.3410839,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "actualDpsChange": 43202.26060190005,
+      "dpsGainPercent": 1.2766,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3427379.3410839,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 2757,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3427379.3410839,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "actualDpsChange": 43202.26060190005,
+      "dpsGainPercent": 1.2766,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3427379.3410839,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3427379.3410839,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "actualDpsChange": 43202.26060190005,
+      "dpsGainPercent": 1.2766,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3427379.3410839,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3427379.3410839,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "actualDpsChange": 43202.26060190005,
+      "dpsGainPercent": 1.2766,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3427379.3410839,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 60.9,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3427379.3410839,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "actualDpsChange": 43202.26060190005,
+      "dpsGainPercent": 1.2766,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3427379.3410839,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 60.9,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3427379.3410839,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "actualDpsChange": 43202.26060190005,
+      "dpsGainPercent": 1.2766,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3427379.3410839,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3427379.3410839,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "actualDpsChange": 43202.26060190005,
+      "dpsGainPercent": 1.2766,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3427379.3410839,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3427379.3410839,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": 36001.88383489987,
+      "actualDpsChange": 36001.88383489987,
+      "dpsGainPercent": 1.0638,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3420178.9643169,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 2757,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3420178.9643169,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": 36001.88383489987,
+      "actualDpsChange": 36001.88383489987,
+      "dpsGainPercent": 1.0638,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3420178.9643169,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3420178.9643169,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": 36001.88383489987,
+      "actualDpsChange": 36001.88383489987,
+      "dpsGainPercent": 1.0638,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3420178.9643169,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 60.9,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3420178.9643169,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": 36001.88383489987,
+      "actualDpsChange": 36001.88383489987,
+      "dpsGainPercent": 1.0638,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3420178.9643169,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3420178.9643169,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 29250.062828699593,
+      "actualDpsChange": 28422.23086179979,
+      "dpsGainPercent": 0.8399,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3412599.3113438,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3412599.3113438,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 23179.295071799774,
+      "actualDpsChange": 0.0,
+      "dpsGainPercent": 0.0,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3384177.080482,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3384177.080482,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 17315.191749099642,
+      "actualDpsChange": 16629.44158089999,
+      "dpsGainPercent": 0.4914,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3400806.5220629,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3400806.5220629,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 17315.191749099642,
+      "actualDpsChange": 16629.44158089999,
+      "dpsGainPercent": 0.4914,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3400806.5220629,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1854,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 68.5,
+        "manaUnreserved": 618,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3400806.5220629,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 11244.423992199823,
+      "actualDpsChange": 10455.341606799979,
+      "dpsGainPercent": 0.3089,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3394632.4220888,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3394632.4220888,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 11244.423992199823,
+      "actualDpsChange": 10455.341606799979,
+      "dpsGainPercent": 0.3089,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3394632.4220888,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1854,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 68.5,
+        "manaUnreserved": 618,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3394632.4220888,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 2797,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 2797,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 3096,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 3096,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 3096,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 60.9,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 3096,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 60.9,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 3096,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 3096,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 2790,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 2790,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 3089,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 3089,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 3089,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 60.9,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 3089,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 60.9,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 3089,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "actualDpsChange": 7200.3767670001835,
+      "dpsGainPercent": 0.2128,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3391377.457249,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 3089,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3391377.457249,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": 3600.1883835000917,
+      "actualDpsChange": 3600.1883835000917,
+      "dpsGainPercent": 0.1064,
+      "ehpChange": 1759.1619125490033,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3387777.2688655,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 2777,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 68.2,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3387777.2688655,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": 3600.1883835000917,
+      "actualDpsChange": 3600.1883835000917,
+      "dpsGainPercent": 0.1064,
+      "ehpChange": 1759.1619125490033,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3387777.2688655,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 68.2,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3387777.2688655,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": 3600.1883835000917,
+      "actualDpsChange": 3600.1883835000917,
+      "dpsGainPercent": 0.1064,
+      "ehpChange": 1759.1619125490033,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3387777.2688655,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 61.9,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3387777.2688655,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": 3600.1883835000917,
+      "actualDpsChange": 3600.1883835000917,
+      "dpsGainPercent": 0.1064,
+      "ehpChange": 1759.1619125490033,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3387777.2688655,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 68.2,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3387777.2688655,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 3600.1883835000917,
+      "actualDpsChange": 3600.1883835000917,
+      "dpsGainPercent": 0.1064,
+      "ehpChange": 676.9447866700066,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3387777.2688655,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9983,
+        "energyShieldRecharge": 2795,
+        "energyShieldRegen": 299.7,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3387777.2688655,
+        "totalEHP": 49556.382117111
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 3600.1883835000917,
+      "actualDpsChange": 3600.1883835000917,
+      "dpsGainPercent": 0.1064,
+      "ehpChange": 676.9447866700066,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3387777.2688655,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9983,
+        "energyShieldRecharge": 3095,
+        "energyShieldRegen": 299.7,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3387777.2688655,
+        "totalEHP": 49556.382117111
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 3600.1883835000917,
+      "actualDpsChange": 3600.1883835000917,
+      "dpsGainPercent": 0.1064,
+      "ehpChange": 676.9447866700066,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3387777.2688655,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9983,
+        "energyShieldRecharge": 3095,
+        "energyShieldRegen": 299.7,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 60.9,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3387777.2688655,
+        "totalEHP": 49556.382117111
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 3600.1883835000917,
+      "actualDpsChange": 3600.1883835000917,
+      "dpsGainPercent": 0.1064,
+      "ehpChange": 676.9447866700066,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3387777.2688655,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9983,
+        "energyShieldRecharge": 3095,
+        "energyShieldRegen": 299.7,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 532,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3387777.2688655,
+        "totalEHP": 49556.382117111
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": 2914.438215199858,
+      "actualDpsChange": 2400.125589000061,
+      "dpsGainPercent": 0.0709,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3386577.206071,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3386577.206071,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 2914.438215199858,
+      "actualDpsChange": 2400.125589000061,
+      "dpsGainPercent": 0.0709,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3386577.206071,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3386577.206071,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": -3156.329541699961,
+      "actualDpsChange": -3748.141330800019,
+      "dpsGainPercent": -0.1108,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3380428.9391512,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3380428.9391512,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": -3156.329541699961,
+      "actualDpsChange": -3748.141330800019,
+      "dpsGainPercent": -0.1108,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3380428.9391512,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3380428.9391512,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": -4285.9385518003255,
+      "actualDpsChange": -4714.532407000195,
+      "dpsGainPercent": -0.1393,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3379462.548075,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3379462.548075,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": -10356.706308700144,
+      "actualDpsChange": -10849.882799600251,
+      "dpsGainPercent": -0.3206,
+      "ehpChange": 0.0,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3373327.1976824,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9846,
+        "energyShieldRecharge": 3052,
+        "energyShieldRegen": 296.9,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3373327.1976824,
+        "totalEHP": 48879.437330441
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -33087.44561970001,
+      "actualDpsChange": -33173.164390800055,
+      "dpsGainPercent": -0.9802,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3351003.9160912,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 3096,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3351003.9160912,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -33087.44561970001,
+      "actualDpsChange": -33173.164390800055,
+      "dpsGainPercent": -0.9802,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3351003.9160912,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 3096,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3351003.9160912,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": -33087.44561970001,
+      "actualDpsChange": -33173.164390800055,
+      "dpsGainPercent": -0.9802,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3351003.9160912,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 3089,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3351003.9160912,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": -33087.44561970001,
+      "actualDpsChange": -33173.164390800055,
+      "dpsGainPercent": -0.9802,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3351003.9160912,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 3089,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3351003.9160912,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": -36687.6340032001,
+      "actualDpsChange": -36730.49338869983,
+      "dpsGainPercent": -1.0854,
+      "ehpChange": 1759.1619125490033,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3347446.5870933,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 68.2,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3347446.5870933,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -36687.6340032001,
+      "actualDpsChange": -36730.49338869983,
+      "dpsGainPercent": -1.0854,
+      "ehpChange": 676.9447866700066,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3347446.5870933,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9983,
+        "energyShieldRecharge": 3095,
+        "energyShieldRegen": 299.7,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3347446.5870933,
+        "totalEHP": 49556.382117111
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -39158.21337659983,
+      "actualDpsChange": -39256.84867480025,
+      "dpsGainPercent": -1.16,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3344920.2318072,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 3096,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3344920.2318072,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -39158.21337659983,
+      "actualDpsChange": -39256.84867480025,
+      "dpsGainPercent": -1.16,
+      "ehpChange": 700.052625657001,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3344920.2318072,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9988,
+        "energyShieldRecharge": 3096,
+        "energyShieldRegen": 299.8,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3344920.2318072,
+        "totalEHP": 49579.489956098
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": -39158.21337659983,
+      "actualDpsChange": -39256.84867480025,
+      "dpsGainPercent": -1.16,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3344920.2318072,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 3089,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3344920.2318072,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": -39158.21337659983,
+      "actualDpsChange": -39256.84867480025,
+      "dpsGainPercent": -1.16,
+      "ehpChange": 589.1349985210036,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3344920.2318072,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9964,
+        "energyShieldRecharge": 3089,
+        "energyShieldRegen": 299.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3344920.2318072,
+        "totalEHP": 49468.572328962
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": -42758.40176009992,
+      "actualDpsChange": -42807.7194091999,
+      "dpsGainPercent": -1.2649,
+      "ehpChange": 1759.1619125490033,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3341369.3610728,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9917,
+        "energyShieldRecharge": 3074,
+        "energyShieldRegen": 298.3,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 68.2,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 64,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3341369.3610728,
+        "totalEHP": 50638.59924299
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -42758.40176009992,
+      "actualDpsChange": -42807.7194091999,
+      "dpsGainPercent": -1.2649,
+      "ehpChange": 676.9447866700066,
+      "stats": {
+        "armour": 1869,
+        "blockChance": 28,
+        "blockChanceMax": 75,
+        "chaosResist": 56,
+        "coldResist": 75,
+        "combinedDPS": 3341369.3610728,
+        "critChance": 0,
+        "critMultiplier": 1.5,
+        "effectiveSpellSuppressionChance": 0,
+        "energyShield": 9983,
+        "energyShieldRecharge": 3095,
+        "energyShieldRegen": 299.7,
+        "evasion": 24,
+        "fireResist": 75,
+        "fullDPS": 0,
+        "life": 1,
+        "lifeCost": 0,
+        "lifeRegen": 0,
+        "lifeUnreserved": 1,
+        "lightningResist": 76,
+        "mana": 1822,
+        "manaCost": 50,
+        "manaPerSecond": null,
+        "manaRegen": 67.3,
+        "manaUnreserved": 607,
+        "movementSpeedMod": 1.32,
+        "speed": 1.6875,
+        "spellBlockChance": 61,
+        "spellBlockChanceMax": 78,
+        "spellSuppressionChance": 0,
+        "spellSuppressionEffect": 40,
+        "totalDPS": 0,
+        "totalDotDPS": 3341369.3610728,
+        "totalEHP": 49556.382117111
+      },
+      "validation": {
+        "status": "VALID",
+        "scope": "attributes_and_passive_budget_only",
+        "attributes": {
+          "status": "VALID",
+          "deficits": {
+            "str": 0,
+            "dex": 0,
+            "int": 0
+          }
+        },
+        "budget": {
+          "status": "VALID",
+          "used": 122,
+          "maximum": 122
+        },
+        "attributeRegression": {
+          "status": "NO_REGRESSION",
+          "changes": {
+            "str": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "dex": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            },
+            "int": {
+              "before": 0,
+              "after": 0,
+              "difference": 0
+            }
+          },
+          "regressions": {}
+        }
+      }
+    }
+  ],
+  "rejected": [],
+  "complete": true
+}

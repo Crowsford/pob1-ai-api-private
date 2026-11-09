@@ -1,0 +1,897 @@
+{
+  "version": "0.2",
+  "xmlPath": "D:\\Dev\\pob\\pob1-ai-api\\test_builds\\BabaBan_corrected.xml",
+  "xmlSha256": "cf5fa3e68bc6aa5c5ca2ee1b1d14231f8f32bf25323886d771bf7ece921766b0",
+  "skillGroup": 6,
+  "baseline": {
+    "ascendClassName": "Occultist",
+    "className": "Witch",
+    "engine": "Path of Building Headless",
+    "extraPoints": 1,
+    "level": 99,
+    "ok": true,
+    "passiveExperiment": null,
+    "passivePointsUsed": 122,
+    "removalExperiment": null,
+    "stats": {
+      "armour": 1869,
+      "blockChance": 28,
+      "blockChanceMax": 75,
+      "chaosResist": 56,
+      "coldResist": 75,
+      "combinedDPS": 3384177.080482,
+      "critChance": 0,
+      "critMultiplier": 1.5,
+      "effectiveSpellSuppressionChance": 0,
+      "energyShield": 9846,
+      "energyShieldRecharge": 3052,
+      "energyShieldRegen": 296.9,
+      "evasion": 24,
+      "fireResist": 75,
+      "fullDPS": 0,
+      "life": 1,
+      "lifeCost": 0,
+      "lifeRegen": 0,
+      "lifeUnreserved": 1,
+      "lightningResist": 76,
+      "mana": 1822,
+      "manaCost": 50,
+      "manaPerSecond": null,
+      "manaRegen": 67.3,
+      "manaUnreserved": 607,
+      "movementSpeedMod": 1.32,
+      "speed": 1.6875,
+      "spellBlockChance": 61,
+      "spellBlockChanceMax": 78,
+      "spellSuppressionChance": 0,
+      "spellSuppressionEffect": 40,
+      "totalDPS": 0,
+      "totalDotDPS": 3384177.080482,
+      "totalEHP": 48879.437330441
+    },
+    "validation": {
+      "attributeRequirementsMet": true,
+      "attributes": {
+        "dex": 119,
+        "int": 401,
+        "str": 128
+      },
+      "problems": [],
+      "requirements": {
+        "dex": 91,
+        "int": 272,
+        "str": 108
+      },
+      "specialRequirements": {
+        "reqDex": 91,
+        "reqInt": 272,
+        "reqStr": 108
+      },
+      "strengthRequirementSource": {
+        "name": "Damnation Goad, Battery Staff",
+        "type": "Item"
+      }
+    }
+  },
+  "newRemovals": [
+    4432,
+    13753,
+    23659,
+    35706,
+    50082,
+    62767
+  ],
+  "additions": [
+    1822,
+    13322,
+    18239,
+    22473,
+    38190,
+    40075,
+    48971,
+    55571,
+    55643,
+    57264,
+    63138,
+    65893
+  ],
+  "candidates": [
+    {
+      "key": "4432->1822",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 1822,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "4432->13322",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 13322,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "4432->18239",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery"
+    },
+    {
+      "key": "4432->22473",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 22473,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "4432->38190",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 38190,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "4432->40075",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 40075,
+      "addName": "Staff Spell Damage"
+    },
+    {
+      "key": "4432->48971",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 48971,
+      "addName": "Chaos Damage"
+    },
+    {
+      "key": "4432->55571",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 55571,
+      "addName": "Aura Effect"
+    },
+    {
+      "key": "4432->55643",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 55643,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "4432->57264",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana"
+    },
+    {
+      "key": "4432->63138",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances"
+    },
+    {
+      "key": "4432->65893",
+      "removeId": 4432,
+      "removeName": "Energy Shield",
+      "addId": 65893,
+      "addName": "Chaos Damage"
+    },
+    {
+      "key": "13753->1822",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 1822,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "13753->13322",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 13322,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "13753->18239",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery"
+    },
+    {
+      "key": "13753->22473",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 22473,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "13753->38190",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 38190,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "13753->40075",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 40075,
+      "addName": "Staff Spell Damage"
+    },
+    {
+      "key": "13753->48971",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 48971,
+      "addName": "Chaos Damage"
+    },
+    {
+      "key": "13753->55571",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 55571,
+      "addName": "Aura Effect"
+    },
+    {
+      "key": "13753->55643",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 55643,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "13753->57264",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana"
+    },
+    {
+      "key": "13753->63138",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances"
+    },
+    {
+      "key": "13753->65893",
+      "removeId": 13753,
+      "removeName": "Energy Shield",
+      "addId": 65893,
+      "addName": "Chaos Damage"
+    },
+    {
+      "key": "23659->1822",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 1822,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "23659->13322",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 13322,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "23659->18239",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery"
+    },
+    {
+      "key": "23659->22473",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 22473,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "23659->38190",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 38190,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "23659->40075",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 40075,
+      "addName": "Staff Spell Damage"
+    },
+    {
+      "key": "23659->48971",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 48971,
+      "addName": "Chaos Damage"
+    },
+    {
+      "key": "23659->55571",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 55571,
+      "addName": "Aura Effect"
+    },
+    {
+      "key": "23659->55643",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 55643,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "23659->57264",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana"
+    },
+    {
+      "key": "23659->63138",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances"
+    },
+    {
+      "key": "23659->65893",
+      "removeId": 23659,
+      "removeName": "Energy Shield",
+      "addId": 65893,
+      "addName": "Chaos Damage"
+    },
+    {
+      "key": "35706->1822",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 1822,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "35706->13322",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 13322,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "35706->18239",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery"
+    },
+    {
+      "key": "35706->22473",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 22473,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "35706->38190",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 38190,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "35706->40075",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 40075,
+      "addName": "Staff Spell Damage"
+    },
+    {
+      "key": "35706->48971",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 48971,
+      "addName": "Chaos Damage"
+    },
+    {
+      "key": "35706->55571",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 55571,
+      "addName": "Aura Effect"
+    },
+    {
+      "key": "35706->55643",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 55643,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "35706->57264",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana"
+    },
+    {
+      "key": "35706->63138",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances"
+    },
+    {
+      "key": "35706->65893",
+      "removeId": 35706,
+      "removeName": "Energy Shield",
+      "addId": 65893,
+      "addName": "Chaos Damage"
+    },
+    {
+      "key": "50082->1822",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 1822,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "50082->13322",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 13322,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "50082->18239",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery"
+    },
+    {
+      "key": "50082->22473",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 22473,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "50082->38190",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 38190,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "50082->40075",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 40075,
+      "addName": "Staff Spell Damage"
+    },
+    {
+      "key": "50082->48971",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 48971,
+      "addName": "Chaos Damage"
+    },
+    {
+      "key": "50082->55571",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 55571,
+      "addName": "Aura Effect"
+    },
+    {
+      "key": "50082->55643",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 55643,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "50082->57264",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana"
+    },
+    {
+      "key": "50082->63138",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances"
+    },
+    {
+      "key": "50082->65893",
+      "removeId": 50082,
+      "removeName": "Spell Damage Over Time Multiplier",
+      "addId": 65893,
+      "addName": "Chaos Damage"
+    },
+    {
+      "key": "62767->1822",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 1822,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "62767->13322",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 13322,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "62767->18239",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery"
+    },
+    {
+      "key": "62767->22473",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 22473,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "62767->38190",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 38190,
+      "addName": "Life and Energy Shield"
+    },
+    {
+      "key": "62767->40075",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 40075,
+      "addName": "Staff Spell Damage"
+    },
+    {
+      "key": "62767->48971",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 48971,
+      "addName": "Chaos Damage"
+    },
+    {
+      "key": "62767->55571",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 55571,
+      "addName": "Aura Effect"
+    },
+    {
+      "key": "62767->55643",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 55643,
+      "addName": "Energy Shield"
+    },
+    {
+      "key": "62767->57264",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana"
+    },
+    {
+      "key": "62767->63138",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances"
+    },
+    {
+      "key": "62767->65893",
+      "removeId": 62767,
+      "removeName": "Spell Block and Elemental Resistances",
+      "addId": 65893,
+      "addName": "Chaos Damage"
+    }
+  ],
+  "results": [],
+  "invalidTrees": [],
+  "errors": [
+    {
+      "key": "4432->1822",
+      "error": "'stats'"
+    },
+    {
+      "key": "4432->13322",
+      "error": "'stats'"
+    },
+    {
+      "key": "4432->18239",
+      "error": "'stats'"
+    },
+    {
+      "key": "4432->22473",
+      "error": "'stats'"
+    },
+    {
+      "key": "4432->38190",
+      "error": "'stats'"
+    },
+    {
+      "key": "4432->40075",
+      "error": "'stats'"
+    },
+    {
+      "key": "4432->48971",
+      "error": "'stats'"
+    },
+    {
+      "key": "4432->55571",
+      "error": "'stats'"
+    },
+    {
+      "key": "4432->55643",
+      "error": "'stats'"
+    },
+    {
+      "key": "4432->57264",
+      "error": "'stats'"
+    },
+    {
+      "key": "4432->63138",
+      "error": "'stats'"
+    },
+    {
+      "key": "4432->65893",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->1822",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->13322",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->18239",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->22473",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->38190",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->40075",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->48971",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->55571",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->55643",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->57264",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->63138",
+      "error": "'stats'"
+    },
+    {
+      "key": "13753->65893",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->1822",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->13322",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->18239",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->22473",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->38190",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->40075",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->48971",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->55571",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->55643",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->57264",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->63138",
+      "error": "'stats'"
+    },
+    {
+      "key": "23659->65893",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->1822",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->13322",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->18239",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->22473",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->38190",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->40075",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->48971",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->55571",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->55643",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->57264",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->63138",
+      "error": "'stats'"
+    },
+    {
+      "key": "35706->65893",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->1822",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->13322",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->18239",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->22473",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->38190",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->40075",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->48971",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->55571",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->55643",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->57264",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->63138",
+      "error": "'stats'"
+    },
+    {
+      "key": "50082->65893",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->1822",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->13322",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->18239",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->22473",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->38190",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->40075",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->48971",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->55571",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->55643",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->57264",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->63138",
+      "error": "'stats'"
+    },
+    {
+      "key": "62767->65893",
+      "error": "'stats'"
+    }
+  ],
+  "complete": true
+}

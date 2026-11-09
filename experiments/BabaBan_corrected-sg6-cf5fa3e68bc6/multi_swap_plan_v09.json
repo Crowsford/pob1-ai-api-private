@@ -1,0 +1,4469 @@
+{
+  "version": "0.9",
+  "xmlPath": "D:\\Dev\\pob\\pob1-ai-api\\test_builds\\BabaBan_corrected.xml",
+  "xmlSha256": "cf5fa3e68bc6aa5c5ca2ee1b1d14231f8f32bf25323886d771bf7ece921766b0",
+  "skillGroup": 6,
+  "singleCount": 387,
+  "previousDoubleCounts": {
+    "multi_swap_results.json": {
+      "calculated": 84,
+      "invalidTrees": 0
+    },
+    "recovery_results.json": {
+      "calculated": 45,
+      "invalidTrees": 5
+    },
+    "adaptive_results.json": {
+      "calculated": 33,
+      "invalidTrees": 7
+    },
+    "multi_swap_executed_v08.json": {
+      "processed": 5
+    }
+  },
+  "previousDoubleKeys": 179,
+  "generatedUnique": 45505,
+  "skippedPrevious": 165,
+  "unexploredCandidates": 45340,
+  "predictedPassCount": 3644,
+  "predictedRejectCount": 41696,
+  "planned": 200,
+  "candidates": [
+    {
+      "key": "21974,22315->2292,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        2292,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.91813,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->34907,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        34907,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.91813,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->48362,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        48362,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.91813,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->48514,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        48514,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.91813,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->63138,65203",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        63138,
+        65203
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.91813,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->2292,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        2292,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.91813,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->34907,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        34907,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.91813,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->48362,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        48362,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.91813,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->48514,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        48514,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.91813,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->63138,65203",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        63138,
+        65203
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.91813,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "13753,22315->13322,63138",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        13322,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.767375,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.660992,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "13753,22315->22473,63138",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        22473,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.767375,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.660992,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,23659->13322,63138",
+      "removeIds": [
+        22315,
+        23659
+      ],
+      "addIds": [
+        13322,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.767375,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.660992,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,23659->22473,63138",
+      "removeIds": [
+        22315,
+        23659
+      ],
+      "addIds": [
+        22473,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.767375,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.660992,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,35706->13322,63138",
+      "removeIds": [
+        22315,
+        35706
+      ],
+      "addIds": [
+        13322,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.767375,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.660992,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,35706->22473,63138",
+      "removeIds": [
+        22315,
+        35706
+      ],
+      "addIds": [
+        22473,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.767375,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.660992,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "4432,22315->13322,63138",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        13322,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.767375,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.660992,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "4432,22315->22473,63138",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        22473,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.767375,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.660992,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "13753,22315->55643,63138",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        55643,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.658089,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.551706,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,23659->55643,63138",
+      "removeIds": [
+        22315,
+        23659
+      ],
+      "addIds": [
+        55643,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.658089,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.551706,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,35706->55643,63138",
+      "removeIds": [
+        22315,
+        35706
+      ],
+      "addIds": [
+        55643,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.658089,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.551706,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "4432,22315->55643,63138",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        55643,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.658089,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.551706,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,50082->48971,63138",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        48971,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.619878,
+      "predictedDpsPercent": 0.020897,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,50082->57264,63138",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        57264,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.619878,
+      "predictedDpsPercent": 0.020897,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "13753,22315->1822,63138",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        1822,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "13753,22315->38190,63138",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        38190,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "13753,22315->61320,63138",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,23659->1822,63138",
+      "removeIds": [
+        22315,
+        23659
+      ],
+      "addIds": [
+        1822,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,23659->38190,63138",
+      "removeIds": [
+        22315,
+        23659
+      ],
+      "addIds": [
+        38190,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,23659->61320,63138",
+      "removeIds": [
+        22315,
+        23659
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,35706->1822,63138",
+      "removeIds": [
+        22315,
+        35706
+      ],
+      "addIds": [
+        1822,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,35706->38190,63138",
+      "removeIds": [
+        22315,
+        35706
+      ],
+      "addIds": [
+        38190,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,35706->61320,63138",
+      "removeIds": [
+        22315,
+        35706
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "4432,22315->1822,63138",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        1822,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "4432,22315->38190,63138",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        38190,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.540454,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.434071,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "4432,22315->61320,63138",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.487899,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 3.381516,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "13753,22315->14057,63138",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        14057,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.216605,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 3.216605,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "13753,22315->5743,63138",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        5743,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.216605,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 3.216605,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,23659->14057,63138",
+      "removeIds": [
+        22315,
+        23659
+      ],
+      "addIds": [
+        14057,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.216605,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 3.216605,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,23659->5743,63138",
+      "removeIds": [
+        22315,
+        23659
+      ],
+      "addIds": [
+        5743,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.216605,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 3.216605,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,35706->14057,63138",
+      "removeIds": [
+        22315,
+        35706
+      ],
+      "addIds": [
+        14057,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.216605,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 3.216605,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,35706->5743,63138",
+      "removeIds": [
+        22315,
+        35706
+      ],
+      "addIds": [
+        5743,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.216605,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 3.216605,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "4432,22315->14057,63138",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        14057,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.216605,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 3.216605,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "4432,22315->5743,63138",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        5743,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.216605,
+      "predictedDpsPercent": 0.0,
+      "predictedEhpPercent": 3.216605,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,55571",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.012241,
+      "predictedDpsPercent": 3.012241,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,55571",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 3.012241,
+      "predictedDpsPercent": 3.012241,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,48971",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.659574,
+      "predictedDpsPercent": 2.659574,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,57264",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.659574,
+      "predictedDpsPercent": 2.659574,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,48971",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        48971
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.659574,
+      "predictedDpsPercent": 2.659574,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,57264",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        57264
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.659574,
+      "predictedDpsPercent": 2.659574,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,13322",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        13322
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.602415,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.432203,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,22473",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        22473
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.602415,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.432203,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,13322",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        13322
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.602415,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.432203,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,22473",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        22473
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.602415,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.432203,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,55643",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        55643
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.448757,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 1.384928,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,55643",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        55643
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.448757,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 1.384928,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,38190",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        38190
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.375495,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.205282,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,61320",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        61320
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.375495,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.205282,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->1822,12913",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        1822,
+        12913
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.375495,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.205282,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,38190",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        38190
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.375495,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.205282,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,61320",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        61320
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.375495,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.205282,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->1822,12913",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        1822,
+        12913
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.375495,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 1.205282,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->2292,55571",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        2292,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->34907,55571",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        34907,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->48362,55571",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        48362,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->48514,55571",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        48514,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->55571,65203",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        55571,
+        65203
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->2292,55571",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        2292,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->34907,55571",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        34907,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->48362,55571",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        48362,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->48514,55571",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        48514,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->55571,65203",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        55571,
+        65203
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.26756,
+      "predictedDpsPercent": 2.26756,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,47085->55571,61320",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        55571,
+        61320
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.257904,
+      "predictedDpsPercent": 1.052622,
+      "predictedEhpPercent": 1.205282,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,40075",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        40075
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.234043,
+      "predictedDpsPercent": 2.234043,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,65893",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        65893
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.234043,
+      "predictedDpsPercent": 2.234043,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,40075",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        40075
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.234043,
+      "predictedDpsPercent": 2.234043,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,65893",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        65893
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.234043,
+      "predictedDpsPercent": 2.234043,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,49515",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.086611,
+      "predictedDpsPercent": 0.957447,
+      "predictedEhpPercent": 1.129164,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,49515",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.086611,
+      "predictedDpsPercent": 0.957447,
+      "predictedEhpPercent": 1.129164,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "7503,21974->12913,49515",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        12913,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.086611,
+      "predictedDpsPercent": 0.957447,
+      "predictedEhpPercent": 1.129164,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "7503,25831->12913,49515",
+      "removeIds": [
+        7503,
+        25831
+      ],
+      "addIds": [
+        12913,
+        49515
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.086611,
+      "predictedDpsPercent": 0.957447,
+      "predictedEhpPercent": 1.129164,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "13753,22315->13322,55571",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        13322,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.054795,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "13753,22315->22473,55571",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        22473,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.054795,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,23659->13322,55571",
+      "removeIds": [
+        22315,
+        23659
+      ],
+      "addIds": [
+        13322,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.054795,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,23659->22473,55571",
+      "removeIds": [
+        22315,
+        23659
+      ],
+      "addIds": [
+        22473,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.054795,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,35706->13322,55571",
+      "removeIds": [
+        22315,
+        35706
+      ],
+      "addIds": [
+        13322,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.054795,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,35706->22473,55571",
+      "removeIds": [
+        22315,
+        35706
+      ],
+      "addIds": [
+        22473,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.054795,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,62767->55571,63138",
+      "removeIds": [
+        22315,
+        62767
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.054795,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "4432,22315->13322,55571",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        13322,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.054795,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "4432,22315->22473,55571",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        22473,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.054795,
+      "predictedDpsPercent": 2.054795,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,14057",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        14057
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.051646,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 0.987816,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->5743,12913",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        5743,
+        12913
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.051646,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 0.987816,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,14057",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        14057
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.051646,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 0.987816,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->5743,12913",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        5743,
+        12913
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.051646,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 0.987816,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,18239",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        18239
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.021277,
+      "predictedDpsPercent": 2.021277,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->12913,21934",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        12913,
+        21934
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.021277,
+      "predictedDpsPercent": 2.021277,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,18239",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        18239
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.021277,
+      "predictedDpsPercent": 2.021277,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,25831->12913,21934",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        12913,
+        21934
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 2.021277,
+      "predictedDpsPercent": 2.021277,
+      "predictedEhpPercent": 0.0,
+      "sourceStatuses": [
+        "PASS",
+        "PASS"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "22315,47085->49515,55571",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        49515,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.993482,
+      "predictedDpsPercent": 0.864318,
+      "predictedEhpPercent": 1.129164,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "7503,47085->49515,55571",
+      "removeIds": [
+        7503,
+        47085
+      ],
+      "addIds": [
+        49515,
+        55571
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.993482,
+      "predictedDpsPercent": 0.864318,
+      "predictedEhpPercent": 1.129164,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "predicted_pass"
+    },
+    {
+      "key": "21974,22315->61320,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 5.123412,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 4.804263,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->61320,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 5.123412,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 4.804263,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->63138,65893",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        63138,
+        65893
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.98196,
+      "predictedDpsPercent": 1.382979,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->40075,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        40075,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.98196,
+      "predictedDpsPercent": 1.382979,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->63138,65893",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        63138,
+        65893
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.98196,
+      "predictedDpsPercent": 1.382979,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->49515,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        49515,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.834529,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.728146,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->49515,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        49515,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.834529,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.728146,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "7503,21974->49515,63138",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        49515,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.834529,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.728146,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "7503,25831->49515,63138",
+      "removeIds": [
+        7503,
+        25831
+      ],
+      "addIds": [
+        49515,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.834529,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.728146,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->14057,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        14057,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.799564,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 4.586798,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->5743,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        5743,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.799564,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 4.586798,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->14057,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        14057,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.799564,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 4.586798,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->5743,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        5743,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.799564,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 4.586798,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->18239,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        18239,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.769194,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->21934,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        21934,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.769194,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->18239,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        18239,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.769194,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->21934,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        21934,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.769194,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "7503,21974->12913,63138",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        12913,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 4.662811,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "7503,25831->12913,63138",
+      "removeIds": [
+        7503,
+        25831
+      ],
+      "addIds": [
+        12913,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 4.662811,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "25831,47085->55571,63138",
+      "removeIds": [
+        25831,
+        47085
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.568416,
+      "predictedDpsPercent": 0.969435,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "7503,47085->55571,63138",
+      "removeIds": [
+        7503,
+        47085
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 4.568416,
+      "predictedDpsPercent": 0.969435,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->31973,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        31973,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.492766,
+      "predictedDpsPercent": 0.893785,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->31973,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        31973,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.492766,
+      "predictedDpsPercent": 0.893785,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "7503,9392->55571,63138",
+      "removeIds": [
+        7503,
+        9392
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 4.388839,
+      "predictedDpsPercent": 0.789857,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->59650,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        59650,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.348307,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.241924,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->59650,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        59650,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.348307,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.241924,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->7641,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        7641,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.301032,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.194649,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->7641,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        7641,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.301032,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.194649,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "7503,21974->7641,63138",
+      "removeIds": [
+        7503,
+        21974
+      ],
+      "addIds": [
+        7641,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.301032,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.194649,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "7503,25831->7641,63138",
+      "removeIds": [
+        7503,
+        25831
+      ],
+      "addIds": [
+        7641,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.301032,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.194649,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,47085->48971,63138",
+      "removeIds": [
+        21974,
+        47085
+      ],
+      "addIds": [
+        48971,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.215749,
+      "predictedDpsPercent": 0.616768,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,47085->57264,63138",
+      "removeIds": [
+        21974,
+        47085
+      ],
+      "addIds": [
+        57264,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.215749,
+      "predictedDpsPercent": 0.616768,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "25831,47085->57264,63138",
+      "removeIds": [
+        25831,
+        47085
+      ],
+      "addIds": [
+        57264,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.215749,
+      "predictedDpsPercent": 0.616768,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "7503,47085->48971,63138",
+      "removeIds": [
+        7503,
+        47085
+      ],
+      "addIds": [
+        48971,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 4.215749,
+      "predictedDpsPercent": 0.616768,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "13753,22315->55571,63138",
+      "removeIds": [
+        13753,
+        22315
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,23659->55571,63138",
+      "removeIds": [
+        22315,
+        23659
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,35706->55571,63138",
+      "removeIds": [
+        22315,
+        35706
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "4432,22315->55571,63138",
+      "removeIds": [
+        4432,
+        22315
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,47085->22473,63138",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        22473,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT"
+      ],
+      "predictedUtility": 4.158591,
+      "predictedDpsPercent": -0.872594,
+      "predictedEhpPercent": 5.031184,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->1031,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        1031,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->15117,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        15117,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->18033,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        18033,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->26270,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        26270,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->33310,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        33310,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->36542,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        36542,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->3656,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        3656,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->39841,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        39841,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->41635,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        41635,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->44184,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        44184,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->46340,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        46340,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->5296,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        5296,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->53456,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        53456,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,22315->58402,63138",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        58402,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->1031,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        1031,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->15117,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        15117,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->18033,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        18033,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->26270,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        26270,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->33310,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        33310,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->36542,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        36542,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "22315,25831->3656,63138",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        3656,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "recovery"
+    },
+    {
+      "key": "21974,25831->61320,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        61320,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 5.123412,
+      "predictedDpsPercent": 0.319149,
+      "predictedEhpPercent": 4.804263,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->40075,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        40075,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.98196,
+      "predictedDpsPercent": 1.382979,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->63138,65893",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        63138,
+        65893
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.98196,
+      "predictedDpsPercent": 1.382979,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->49515,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        49515,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.834529,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.728146,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->14057,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        14057,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.799564,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 4.586798,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->5743,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        5743,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.799564,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 4.586798,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->18239,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        18239,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.769194,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->21934,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        21934,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.769194,
+      "predictedDpsPercent": 1.170213,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->12913,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        12913,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.662811,
+      "predictedDpsPercent": 1.06383,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "PASS"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->31973,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        31973,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.492766,
+      "predictedDpsPercent": 0.893785,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->59650,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        59650,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.348307,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.241924,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->7641,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        7641,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.301032,
+      "predictedDpsPercent": 0.106383,
+      "predictedEhpPercent": 4.194649,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "13753,21974->55571,63138",
+      "removeIds": [
+        13753,
+        21974
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "13753,25831->55571,63138",
+      "removeIds": [
+        13753,
+        25831
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,23659->55571,63138",
+      "removeIds": [
+        21974,
+        23659
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,35706->55571,63138",
+      "removeIds": [
+        21974,
+        35706
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "23659,25831->55571,63138",
+      "removeIds": [
+        23659,
+        25831
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "25831,35706->55571,63138",
+      "removeIds": [
+        25831,
+        35706
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "4432,21974->55571,63138",
+      "removeIds": [
+        4432,
+        21974
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "4432,25831->55571,63138",
+      "removeIds": [
+        4432,
+        25831
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "4432,7503->55571,63138",
+      "removeIds": [
+        4432,
+        7503
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "7503,13753->55571,63138",
+      "removeIds": [
+        7503,
+        13753
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "7503,23659->55571,63138",
+      "removeIds": [
+        7503,
+        23659
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "7503,35706->55571,63138",
+      "removeIds": [
+        7503,
+        35706
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "ENERGY_SHIELD_LOSS",
+        "ES_RECHARGE_LOSS"
+      ],
+      "predictedUtility": 4.177201,
+      "predictedDpsPercent": 1.948412,
+      "predictedEhpPercent": 2.228789,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->1031,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        1031,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->15117,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        15117,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->18033,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        18033,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->26270,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        26270,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->33310,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        33310,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->36542,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        36542,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->3656,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        3656,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->39841,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        39841,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->41635,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        41635,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->44184,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        44184,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->46340,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        46340,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,25831->5296,63138",
+      "removeIds": [
+        21974,
+        25831
+      ],
+      "addIds": [
+        5296,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 4.038668,
+      "predictedDpsPercent": 0.212766,
+      "predictedEhpPercent": 3.825902,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "9392,22315->13322,63138",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        13322,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT"
+      ],
+      "predictedUtility": 3.979013,
+      "predictedDpsPercent": -1.052171,
+      "predictedEhpPercent": 5.031184,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "9392,22315->22473,63138",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        22473,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "DPS_BELOW_LIMIT"
+      ],
+      "predictedUtility": 3.979013,
+      "predictedDpsPercent": -1.052171,
+      "predictedEhpPercent": 5.031184,
+      "sourceStatuses": [
+        "PASS",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "21974,50082->55571,63138",
+      "removeIds": [
+        21974,
+        50082
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 3.972545,
+      "predictedDpsPercent": 0.373564,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    },
+    {
+      "key": "25831,50082->55571,63138",
+      "removeIds": [
+        25831,
+        50082
+      ],
+      "addIds": [
+        55571,
+        63138
+      ],
+      "predictedStatus": "REJECT",
+      "predictedProblems": [
+        "FREE_MANA_LOSS"
+      ],
+      "predictedUtility": 3.972545,
+      "predictedDpsPercent": 0.373564,
+      "predictedEhpPercent": 3.598982,
+      "sourceStatuses": [
+        "REJECT",
+        "REJECT"
+      ],
+      "selectionMode": "diversity"
+    }
+  ]
+}

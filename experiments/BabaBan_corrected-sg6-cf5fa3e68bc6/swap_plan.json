@@ -1,0 +1,661 @@
+{
+  "version": "0.1",
+  "xmlPath": "D:\\Dev\\pob\\pob1-ai-api\\test_builds\\BabaBan_corrected.xml",
+  "xmlSha256": "cf5fa3e68bc6aa5c5ca2ee1b1d14231f8f32bf25323886d771bf7ece921766b0",
+  "sourceHashesVerified": true,
+  "sourceBaselineMatch": true,
+  "skillGroup": 6,
+  "selectedRemovals": 6,
+  "selectedAdditions": 12,
+  "plannedPairs": 72,
+  "pairs": [
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 69537.88521539979,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 69537.88521539979,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 69537.88521539979,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 69537.88521539979,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 57603.01413579984,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 57603.01413579984,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 57603.01413579984,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 57603.01413579984,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 57603.01413579984,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 57603.01413579984,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 57603.01413579984,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 57603.01413579984,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 43202.26060190005,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": 36001.88383489987,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": 36001.88383489987,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": 36001.88383489987,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": 36001.88383489987,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 29250.062828699593,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 55571,
+      "addName": "Aura Effect",
+      "estimatedDpsChange": 23179.295071799774,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 17315.191749099642,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 17315.191749099642,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 48971,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 11244.423992199823,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 57264,
+      "addName": "Spell Damage and Mana",
+      "estimatedDpsChange": 11244.423992199823,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": 7200.3767670001835,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": 3600.1883835000917,
+      "estimatedEhpChange": 1759.1619125490033,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": 3600.1883835000917,
+      "estimatedEhpChange": 1759.1619125490033,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": 3600.1883835000917,
+      "estimatedEhpChange": 1759.1619125490033,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": 3600.1883835000917,
+      "estimatedEhpChange": 1759.1619125490033,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 7503,
+      "removeName": "Energy Shield Recharge Rate",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 3600.1883835000917,
+      "estimatedEhpChange": 676.9447866700066,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 21974,
+      "removeName": "Reservation Efficiency",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 3600.1883835000917,
+      "estimatedEhpChange": 676.9447866700066,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 22315,
+      "removeName": "Mana Regeneration",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 3600.1883835000917,
+      "estimatedEhpChange": 676.9447866700066,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 25831,
+      "removeName": "Reservation Efficiency",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": 3600.1883835000917,
+      "estimatedEhpChange": 676.9447866700066,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": 2914.438215199858,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": 2914.438215199858,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 40075,
+      "addName": "Staff Spell Damage",
+      "estimatedDpsChange": -3156.329541699961,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 65893,
+      "addName": "Chaos Damage",
+      "estimatedDpsChange": -3156.329541699961,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": -4285.9385518003255,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 18239,
+      "addName": "Spell Damage and Stun Recovery",
+      "estimatedDpsChange": -10356.706308700144,
+      "estimatedEhpChange": 0.0,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -33087.44561970001,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -33087.44561970001,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": -33087.44561970001,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": -33087.44561970001,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": -36687.6340032001,
+      "estimatedEhpChange": 1759.1619125490033,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 47085,
+      "removeName": "Spell Damage Over Time Multiplier and Duration",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -36687.6340032001,
+      "estimatedEhpChange": 676.9447866700066,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 13322,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -39158.21337659983,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 22473,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -39158.21337659983,
+      "estimatedEhpChange": 700.052625657001,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 1822,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": -39158.21337659983,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 38190,
+      "addName": "Life and Energy Shield",
+      "estimatedDpsChange": -39158.21337659983,
+      "estimatedEhpChange": 589.1349985210036,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 63138,
+      "addName": "Spell Block and Elemental Resistances",
+      "estimatedDpsChange": -42758.40176009992,
+      "estimatedEhpChange": 1759.1619125490033,
+      "status": "NOT_EVALUATED"
+    },
+    {
+      "removeId": 9392,
+      "removeName": "Aura Effect",
+      "addId": 55643,
+      "addName": "Energy Shield",
+      "estimatedDpsChange": -42758.40176009992,
+      "estimatedEhpChange": 676.9447866700066,
+      "status": "NOT_EVALUATED"
+    }
+  ]
+}

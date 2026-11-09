@@ -1,0 +1,241 @@
+{
+  "version": "1.3-diagnostic",
+  "xmlPath": "D:\\Dev\\pob\\pob1-ai-api\\test_builds\\BabaBan_corrected.xml",
+  "xmlSha256": "cf5fa3e68bc6aa5c5ca2ee1b1d14231f8f32bf25323886d771bf7ece921766b0",
+  "skillGroup": 6,
+  "calculated": 34,
+  "matched": 34,
+  "invalidTrees": 4,
+  "invalidCandidates": 2,
+  "metricErrors": {
+    "DPS": {
+      "count": 34,
+      "MAE": 0.09627295610959732,
+      "medianAbsoluteError": 2.446809137524042e-07,
+      "bias": 0.05217370740399906,
+      "maxAbsoluteError": 0.6834740212763416
+    },
+    "EHP": {
+      "count": 34,
+      "MAE": 0.027352928009060355,
+      "medianAbsoluteError": 2.9086401664990547e-07,
+      "bias": -0.027352839558585754,
+      "maxAbsoluteError": 0.108498
+    },
+    "Mana Regen": {
+      "count": 34,
+      "MAE": 0.192290982519008,
+      "medianAbsoluteError": 0.1485879375928647,
+      "bias": -0.12236704728606979,
+      "maxAbsoluteError": 0.594353791976213
+    }
+  },
+  "confusion": {
+    "PASS->PASS": 26,
+    "REJECT->REJECT": 8
+  },
+  "predictedPassPrecision": 1.0,
+  "rejectionReasons": {
+    "ES_RECHARGE_LOSS": 7,
+    "LOW_FREE_MANA": 1,
+    "FREE_MANA_LOSS": 2,
+    "ENERGY_SHIELD_LOSS": 1
+  },
+  "worstPredictions": [
+    {
+      "key": "7503,9392->55571,63138",
+      "actualStatus": "REJECT",
+      "predictedStatus": "REJECT",
+      "dpsError": -0.6834740212763416,
+      "ehpError": -4.882929545146908e-07,
+      "combinedAbsoluteError": 0.6834745095692961,
+      "problems": [
+        "ES_RECHARGE_LOSS"
+      ]
+    },
+    {
+      "key": "21974,25831->57264,65203",
+      "actualStatus": "REJECT",
+      "predictedStatus": "REJECT",
+      "dpsError": 0.638297489361831,
+      "ehpError": 0.0,
+      "combinedAbsoluteError": 0.638297489361831,
+      "problems": [
+        "LOW_FREE_MANA",
+        "FREE_MANA_LOSS"
+      ]
+    },
+    {
+      "key": "21974,47085->57264,65203",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": 0.6281661621080086,
+      "ehpError": 0.0,
+      "combinedAbsoluteError": 0.6281661621080086,
+      "problems": []
+    },
+    {
+      "key": "25831,50082->57264,65203",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": 0.6231004984796249,
+      "ehpError": 0.0,
+      "combinedAbsoluteError": 0.6231004984796249,
+      "problems": []
+    },
+    {
+      "key": "21974,50082->57264,65203",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": 0.6231004984796249,
+      "ehpError": 0.0,
+      "combinedAbsoluteError": 0.6231004984796249,
+      "problems": []
+    },
+    {
+      "key": "22315,35706->22473,55571",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": 0.004371520548424712,
+      "ehpError": -0.108498,
+      "combinedAbsoluteError": 0.11286952054842471,
+      "problems": []
+    },
+    {
+      "key": "22315,23659->22473,55571",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": 0.004371520548424712,
+      "ehpError": -0.108498,
+      "combinedAbsoluteError": 0.11286952054842471,
+      "problems": []
+    },
+    {
+      "key": "22315,23659->22473,57264",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": -3.404274229179549e-07,
+      "ehpError": -0.108498,
+      "combinedAbsoluteError": 0.10849834042742292,
+      "problems": []
+    },
+    {
+      "key": "13753,22315->22473,48971",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": -3.404274229179549e-07,
+      "ehpError": -0.108498,
+      "combinedAbsoluteError": 0.10849834042742292,
+      "problems": []
+    },
+    {
+      "key": "13753,22315->22473,57264",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": -3.404274229179549e-07,
+      "ehpError": -0.108498,
+      "combinedAbsoluteError": 0.10849834042742292,
+      "problems": []
+    },
+    {
+      "key": "22315,35706->22473,48971",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": -3.404274229179549e-07,
+      "ehpError": -0.108498,
+      "combinedAbsoluteError": 0.10849834042742292,
+      "problems": []
+    },
+    {
+      "key": "22315,23659->22473,65893",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": -2.5531908454112795e-07,
+      "ehpError": -0.108498,
+      "combinedAbsoluteError": 0.10849825531908454,
+      "problems": []
+    },
+    {
+      "key": "22315,35706->22473,63138",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": -2.1276341563569723e-08,
+      "ehpError": -0.06201048829295441,
+      "combinedAbsoluteError": 0.06201050956929598,
+      "problems": []
+    },
+    {
+      "key": "22315,35706->13322,63138",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": -2.1276341563569723e-08,
+      "ehpError": -0.06201048829295441,
+      "combinedAbsoluteError": 0.06201050956929598,
+      "problems": []
+    },
+    {
+      "key": "7503,35706->55571,63138",
+      "actualStatus": "REJECT",
+      "predictedStatus": "REJECT",
+      "dpsError": 0.0021855902051999276,
+      "ehpError": -0.046487611083410485,
+      "combinedAbsoluteError": 0.04867320128861041,
+      "problems": [
+        "ENERGY_SHIELD_LOSS",
+        "ES_RECHARGE_LOSS"
+      ]
+    },
+    {
+      "key": "7503,50082->55571,63138",
+      "actualStatus": "REJECT",
+      "predictedStatus": "REJECT",
+      "dpsError": -0.034546325021656055,
+      "ehpError": -4.882929545146908e-07,
+      "combinedAbsoluteError": 0.03454681331461057,
+      "problems": [
+        "ES_RECHARGE_LOSS"
+      ]
+    },
+    {
+      "key": "7503,47085->48971,63138",
+      "actualStatus": "REJECT",
+      "predictedStatus": "REJECT",
+      "dpsError": -0.020263440731351556,
+      "ehpError": -4.882929545146908e-07,
+      "combinedAbsoluteError": 0.02026392902430607,
+      "problems": [
+        "ES_RECHARGE_LOSS"
+      ]
+    },
+    {
+      "key": "25831,47085->12913,57264",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": -0.01139832320318046,
+      "ehpError": 0.0,
+      "combinedAbsoluteError": 0.01139832320318046,
+      "problems": []
+    },
+    {
+      "key": "7503,21974->55571,59650",
+      "actualStatus": "REJECT",
+      "predictedStatus": "REJECT",
+      "dpsError": -4.794515753303585e-07,
+      "ehpError": 3.64691018717167e-07,
+      "combinedAbsoluteError": 8.441425940475256e-07,
+      "problems": [
+        "ES_RECHARGE_LOSS",
+        "FREE_MANA_LOSS"
+      ]
+    },
+    {
+      "key": "22315,25831->12913,59650",
+      "actualStatus": "PASS",
+      "predictedStatus": "PASS",
+      "dpsError": -1.9149005991980772e-07,
+      "ehpError": 3.64691018717167e-07,
+      "combinedAbsoluteError": 5.561810786369747e-07,
+      "problems": []
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "version": "1.2",
+  "xmlPath": "D:\\Dev\\pob\\pob1-ai-api\\test_builds\\BabaBan_corrected.xml",
+  "xmlSha256": "cf5fa3e68bc6aa5c5ca2ee1b1d14231f8f32bf25323886d771bf7ece921766b0",
+  "skillGroup": 6,
+  "experimentType": "interaction_holdout",
+  "fixedDpsCorrection": 0.377,
+  "planned": 6,
+  "candidates": [
+    {
+      "key": "21974,22315->57264,65203",
+      "removeIds": [
+        21974,
+        22315
+      ],
+      "addIds": [
+        57264,
+        65203
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.914894,
+      "predictedScore": 1.935696,
+      "predictedDpsPercent": 1.914894,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 1.040119,
+      "selectionMode": "interaction_holdout"
+    },
+    {
+      "key": "22315,25831->57264,65203",
+      "removeIds": [
+        22315,
+        25831
+      ],
+      "addIds": [
+        57264,
+        65203
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 1.914894,
+      "predictedScore": 1.935696,
+      "predictedDpsPercent": 1.914894,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 1.040119,
+      "selectionMode": "interaction_holdout"
+    },
+    {
+      "key": "22315,47085->57264,65203",
+      "removeIds": [
+        22315,
+        47085
+      ],
+      "addIds": [
+        57264,
+        65203
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.704154,
+      "predictedScore": 0.721985,
+      "predictedDpsPercent": 0.704154,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0.89153,
+      "selectionMode": "interaction_holdout"
+    },
+    {
+      "key": "25831,47085->57264,65203",
+      "removeIds": [
+        25831,
+        47085
+      ],
+      "addIds": [
+        57264,
+        65203
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.704154,
+      "predictedScore": 0.918121,
+      "predictedDpsPercent": 0.704154,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 10.698366,
+      "selectionMode": "interaction_holdout"
+    },
+    {
+      "key": "9392,22315->57264,65203",
+      "removeIds": [
+        9392,
+        22315
+      ],
+      "addIds": [
+        57264,
+        65203
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.521714,
+      "predictedScore": 0.539544,
+      "predictedDpsPercent": 0.521714,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0.89153,
+      "selectionMode": "interaction_holdout"
+    },
+    {
+      "key": "22315,50082->57264,65203",
+      "removeIds": [
+        22315,
+        50082
+      ],
+      "addIds": [
+        57264,
+        65203
+      ],
+      "predictedStatus": "PASS",
+      "predictedProblems": [],
+      "predictedUtility": 0.098784,
+      "predictedScore": 0.116615,
+      "predictedDpsPercent": 0.098784,
+      "predictedEhpPercent": 0.0,
+      "predictedManaRegenPercent": 0.89153,
+      "selectionMode": "interaction_holdout"
+    }
+  ]
+}

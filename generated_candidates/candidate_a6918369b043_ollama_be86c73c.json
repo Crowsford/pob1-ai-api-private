@@ -1,0 +1,108 @@
+{
+  "generatorVersion": 1,
+  "specSha256": "a6918369b043ccaf3bc36b3c460cccafa87ede7435dfa2fa9b1ae8839bc482a3",
+  "specPath": "D:\\Dev\\pob\\pob1-ai-api\\build_profiles\\league_starter_spec_v2.json",
+  "generatedAt": "2026-11-03T14:17:56.491816+00:00",
+  "modelInfo": {
+    "mode": "ollama",
+    "model": "qwen3:8b",
+    "doneReason": "stop",
+    "evalCount": 569
+  },
+  "verificationStatus": "UNVERIFIED_HYPOTHESIS",
+  "candidates": [
+    {
+      "class": "Amazon",
+      "ascendancy": "Scourge",
+      "mainSkill": "Sunder",
+      "damageMechanic": "Physical",
+      "defenseType": "life",
+      "leagueStartGear": [
+        "Sundering Axe",
+        "Scourge's Chain",
+        "Scourge's Chain",
+        "Scourge's Chain",
+        "Scourge's Chain"
+      ],
+      "levelingPlan": [
+        "Sunder",
+        "Scourge's Chain",
+        "Scourge's Chain",
+        "Scourge's Chain",
+        "Scourge's Chain"
+      ],
+      "strengths": [
+        "High DPS with Sunder",
+        "Synergy with Scourge ascendancy",
+        "Good for early maps"
+      ],
+      "risks": [
+        "Dependent on gear for damage",
+        "May struggle with high resistances",
+        "Requires careful positioning"
+      ]
+    },
+    {
+      "class": "Crusader",
+      "ascendancy": "Crusader",
+      "mainSkill": "Divine Judgment",
+      "damageMechanic": "Lightning",
+      "defenseType": "energy_shield",
+      "leagueStartGear": [
+        "Divine Judgment",
+        "Crusader's Mace",
+        "Crusader's Mace",
+        "Crusader's Mace",
+        "Crusader's Mace"
+      ],
+      "levelingPlan": [
+        "Divine Judgment",
+        "Crusader's Mace",
+        "Crusader's Mace",
+        "Crusader's Mace",
+        "Crusader's Mace"
+      ],
+      "strengths": [
+        "High lightning damage",
+        "Good energy shield synergy",
+        "Versatile for boss fights"
+      ],
+      "risks": [
+        "Requires mana management",
+        "May struggle with high resistances",
+        "Dependent on gear for damage"
+      ]
+    },
+    {
+      "class": "Witch",
+      "ascendancy": "Necromancer",
+      "mainSkill": "Soul Harvest",
+      "damageMechanic": "Cold",
+      "defenseType": "hybrid",
+      "leagueStartGear": [
+        "Soul Harvest",
+        "Necromancer's Staff",
+        "Necromancer's Staff",
+        "Necromancer's Staff",
+        "Necromancer's Staff"
+      ],
+      "levelingPlan": [
+        "Soul Harvest",
+        "Necromancer's Staff",
+        "Necromancer's Staff",
+        "Necromancer's Staff",
+        "Necromancer's Staff"
+      ],
+      "strengths": [
+        "Cold damage synergy with Necromancer",
+        "Hybrid defense for balance",
+        "Good for boss fights"
+      ],
+      "risks": [
+        "Dependent on gear for damage",
+        "May struggle with high resistances",
+        "Requires careful positioning"
+      ]
+    }
+  ]
+}

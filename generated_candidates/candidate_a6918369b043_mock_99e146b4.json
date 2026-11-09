@@ -1,0 +1,69 @@
+{
+  "generatorVersion": 1,
+  "specSha256": "a6918369b043ccaf3bc36b3c460cccafa87ede7435dfa2fa9b1ae8839bc482a3",
+  "specPath": "D:\\Dev\\pob\\pob1-ai-api\\build_profiles\\league_starter_spec_v2.json",
+  "generatedAt": "2026-11-03T14:17:17.160983+00:00",
+  "modelInfo": {
+    "mode": "mock"
+  },
+  "verificationStatus": "UNVERIFIED_HYPOTHESIS",
+  "candidates": [
+    {
+      "class": "Witch",
+      "ascendancy": "Elementalist",
+      "mainSkill": "Fireball",
+      "damageMechanic": "ignite",
+      "defenseType": "life",
+      "leagueStartGear": [
+        "Rare gear; availability not yet verified"
+      ],
+      "levelingPlan": [
+        "Leveling progression requires verification"
+      ],
+      "strengths": [
+        "Candidate suitable for mechanical testing"
+      ],
+      "risks": [
+        "Mechanics, budget and PoB are unverified"
+      ]
+    },
+    {
+      "class": "Ranger",
+      "ascendancy": "Deadeye",
+      "mainSkill": "Lightning Arrow",
+      "damageMechanic": "hit",
+      "defenseType": "life",
+      "leagueStartGear": [
+        "Rare gear; availability not yet verified"
+      ],
+      "levelingPlan": [
+        "Leveling progression requires verification"
+      ],
+      "strengths": [
+        "Candidate suitable for mechanical testing"
+      ],
+      "risks": [
+        "Mechanics, budget and PoB are unverified"
+      ]
+    },
+    {
+      "class": "Duelist",
+      "ascendancy": "Slayer",
+      "mainSkill": "Cyclone",
+      "damageMechanic": "physical hit",
+      "defenseType": "life",
+      "leagueStartGear": [
+        "Rare gear; availability not yet verified"
+      ],
+      "levelingPlan": [
+        "Leveling progression requires verification"
+      ],
+      "strengths": [
+        "Candidate suitable for mechanical testing"
+      ],
+      "risks": [
+        "Mechanics, budget and PoB are unverified"
+      ]
+    }
+  ]
+}
