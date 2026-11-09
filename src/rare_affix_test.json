@@ -1,0 +1,26 @@
+{
+    "itemLevel":  86,
+    "mods":  [
+                 {
+                     "text":  "152% increased Spell Damage"
+                 },
+                 {
+                     "text":  "+43% to Chaos Damage over Time Multiplier"
+                 },
+                 {
+                     "text":  "+2 to Level of all Spell Skill Gems"
+                 },
+                 {
+                     "text":  "+13% Chance to Block Spell Damage"
+                 },
+                 {
+                     "text":  "+13% Chance to Block Attack Damage",
+                     "crafted":  true
+                 },
+                 {
+                     "text":  "+4 to Level of all Chaos Spell Skill Gems",
+                     "fractured":  true
+                 }
+             ],
+    "baseCategory":  "staff"
+}

@@ -1,0 +1,27 @@
+{
+  "profileVersion": "1.0",
+  "build": {
+    "name": "BabaBan Test",
+    "xmlPath": "test_builds/BabaBan_corrected.xml",
+    "skillGroup": 6
+  },
+  "objectives": {
+    "maximize": [
+      "combinedDPS",
+      "totalEHP"
+    ]
+  },
+  "constraints": {
+    "min_dps_change_percent": 0.0,
+    "max_ehp_loss_percent": 0.0,
+    "max_es_loss_percent": 0.0,
+    "max_es_recharge_loss_percent": 5.0,
+    "max_mana_regen_loss_percent": 10.0,
+    "min_free_mana": 500.0,
+    "max_free_mana_loss_percent": 10.0,
+    "min_mana_casts": 2.0,
+    "allow_resistance_loss": false,
+    "allow_block_loss": false,
+    "allow_suppression_loss": false
+  }
+}

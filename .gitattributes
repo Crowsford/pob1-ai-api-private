@@ -67,3 +67,10 @@
 # (https://git-scm.com/docs/gitattributes#_executable)
 ###############################################################################
 runtime/*.exe binary
+
+# QUIN fixtures: preserve exact bytes for SHA256 provenance.
+/build_profiles/bababan_test.json -text
+/build_profiles/league_starter_spec_v2.json -text
+/build_profiles/life_archetype_v2.json -text
+/src/rare_affix_test.json -text
+/test_builds/BabaBan_corrected.xml -text

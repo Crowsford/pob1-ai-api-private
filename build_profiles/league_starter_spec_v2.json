@@ -1,0 +1,61 @@
+
+{
+  "specVersion": 2,
+  "name": "League Starter — First Generation Test",
+  "game": "poe1",
+  "league": "next_league",
+  "character": {
+    "class": "auto",
+    "ascendancy": "auto",
+    "defenseType": "auto"
+  },
+  "playstyle": {
+    "mainSkill": "auto",
+    "avoidMechanics": [
+      "mandatory_unique_items",
+      "expensive_required_gear"
+    ],
+    "preferences": [
+      "damage_and_defense_synergy",
+      "comfortable_mapping",
+      "boss_capability"
+    ]
+  },
+  "budget": {
+    "unit": "chaos",
+    "maximum": 50,
+    "stage": "early_maps"
+  },
+  "requirements": {
+    "life": {
+      "min": 3000,
+      "missing": "skip"
+    },
+    "totalEHP": {
+      "min": 15000
+    },
+    "combinedDPS": {
+      "min": 500000
+    },
+    "fireResist": {
+      "min": 75
+    },
+    "coldResist": {
+      "min": 75
+    },
+    "lightningResist": {
+      "min": 75
+    }
+  },
+  "objectives": {
+    "maximize": [
+      "combinedDPS",
+      "totalEHP"
+    ]
+  },
+  "progression": {
+    "act1To10": true,
+    "earlyMaps": true,
+    "endgame": true
+  }
+}

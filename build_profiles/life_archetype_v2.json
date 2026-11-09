@@ -1,0 +1,33 @@
+
+{
+  "profileVersion": 2,
+  "name": "Life-based League Starter — Test",
+  "defenseType": "life",
+  "requirements": {
+    "life": {
+      "min": 4000
+    },
+    "totalEHP": {
+      "min": 20000
+    },
+    "combinedDPS": {
+      "min": 1000000
+    },
+    "fireResist": {
+      "min": 75
+    },
+    "coldResist": {
+      "min": 75
+    },
+    "lightningResist": {
+      "min": 75
+    },
+    "energyShield": {
+      "min": 0,
+      "missing": "skip"
+    },
+    "manaUnreserved": {
+      "min": 100
+    }
+  }
+}
