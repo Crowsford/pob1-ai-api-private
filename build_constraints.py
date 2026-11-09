@@ -75,7 +75,30 @@ def percent_change(original, modified):
     return 100.0 * (modified - original) / original
 
 
-def evaluate_constraints(baseline, row):
+def evaluate_constraints(baseline, row, limits=None):
+    # Preserve old two-argument behavior.
+    if limits is None:
+        limits = LIMITS
+
+    if not isinstance(limits, dict):
+        raise ValueError("Constraints must be a dictionary")
+
+    if set(limits) != set(LIMITS):
+        raise ValueError("Incomplete or unknown constraints")
+
+    for key, default in LIMITS.items():
+        item = limits[key]
+        if isinstance(default, bool):
+            valid = type(item) is bool
+        else:
+            valid = (
+                type(item) in (int, float)
+                and math.isfinite(item)
+                and item >= 0
+            )
+        if not valid:
+            raise ValueError(f"Invalid constraint value: {key}")
+
     original = baseline["stats"]
     modified = row["stats"]
 
@@ -105,27 +128,27 @@ def evaluate_constraints(baseline, row):
     checks = (
         (
             "dps_percent",
-            LIMITS["min_dps_change_percent"],
+            limits["min_dps_change_percent"],
             "DPS_BELOW_LIMIT",
         ),
         (
             "ehp_percent",
-            -LIMITS["max_ehp_loss_percent"],
+            -limits["max_ehp_loss_percent"],
             "EHP_LOSS",
         ),
         (
             "es_percent",
-            -LIMITS["max_es_loss_percent"],
+            -limits["max_es_loss_percent"],
             "ENERGY_SHIELD_LOSS",
         ),
         (
             "es_recharge_percent",
-            -LIMITS["max_es_recharge_loss_percent"],
+            -limits["max_es_recharge_loss_percent"],
             "ES_RECHARGE_LOSS",
         ),
         (
             "mana_regen_percent",
-            -LIMITS["max_mana_regen_loss_percent"],
+            -limits["max_mana_regen_loss_percent"],
             "MANA_REGEN_LOSS",
         ),
     )
@@ -147,19 +170,19 @@ def evaluate_constraints(baseline, row):
         baseline_free_mana, free_mana
     )
 
-    if free_mana < LIMITS["min_free_mana"] - TOLERANCE:
+    if free_mana < limits["min_free_mana"] - TOLERANCE:
         problems.append("LOW_FREE_MANA")
 
     if (
         changes["free_mana_percent"]
-        < -LIMITS["max_free_mana_loss_percent"]
+        < -limits["max_free_mana_loss_percent"]
         - TOLERANCE
     ):
         problems.append("FREE_MANA_LOSS")
 
     if (
         free_mana + TOLERANCE
-        < mana_cost * LIMITS["min_mana_casts"]
+        < mana_cost * limits["min_mana_casts"]
     ):
         problems.append("INSUFFICIENT_MANA_FOR_CASTS")
 
@@ -170,7 +193,7 @@ def evaluate_constraints(baseline, row):
 
         changes[key + "_change"] = after - before
 
-        if not LIMITS["allow_resistance_loss"]:
+        if not limits["allow_resistance_loss"]:
             if after < before - TOLERANCE:
                 problems.append("RESISTANCE_LOSS_" + key)
 
@@ -181,7 +204,7 @@ def evaluate_constraints(baseline, row):
 
         changes[key + "_change"] = after - before
 
-        if not LIMITS["allow_block_loss"]:
+        if not limits["allow_block_loss"]:
             if after < before - TOLERANCE:
                 problems.append("BLOCK_LOSS_" + key)
 
@@ -192,7 +215,7 @@ def evaluate_constraints(baseline, row):
 
         changes[key + "_change"] = after - before
 
-        if not LIMITS["allow_suppression_loss"]:
+        if not limits["allow_suppression_loss"]:
             if after < before - TOLERANCE:
                 problems.append("SUPPRESSION_LOSS_" + key)
 
