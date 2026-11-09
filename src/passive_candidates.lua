@@ -105,3 +105,143 @@ print("RESULT_JSON:" .. json.encode({
     removalCandidateCount = #removalCandidates,
     removalCandidates = removalCandidates
 }))
+
+print("=== DEPENDENCY TEST CANDIDATES ===")
+
+local dependencyCandidates = {}
+
+for id, node in pairs(spec.allocNodes) do
+    if node.type == "Normal"
+        and not node.ascendancyName
+        and not node.isMultipleChoiceOption
+        and node.depends
+        and #node.depends > 1 then
+
+        dependencyCandidates[#dependencyCandidates + 1] = {
+            id = id,
+            name = node.dn or node.name or "Unknown",
+            count = #node.depends
+        }
+    end
+end
+
+table.sort(dependencyCandidates, function(a, b)
+    return a.count > b.count
+end)
+
+for i = 1, math.min(10, #dependencyCandidates) do
+    local node = dependencyCandidates[i]
+
+    print(
+        node.id,
+        node.name,
+        "Dependent nodes:",
+        node.count
+    )
+end
+
+print("=== DEPENDENCY CONFLICT DIAGNOSTIC ===")
+
+local first = spec.allocNodes[7503]
+local second = spec.allocNodes[22315]
+
+assert(first, "Node 7503 is not allocated")
+assert(second, "Node 22315 is not allocated")
+
+local function showDependencies(node)
+    print(
+        "Node:",
+        node.id,
+        node.dn or node.name,
+        "Depends count:",
+        #node.depends,
+        "Connected to start:",
+        tostring(node.connectedToStart)
+    )
+
+    for _, dependent in ipairs(node.depends) do
+        print(
+            "  Dependent:",
+            dependent.id,
+            dependent.dn or dependent.name
+        )
+    end
+end
+
+showDependencies(first)
+showDependencies(second)
+
+print("=== SHARED LINKS ===")
+
+local function allocatedNeighbors(node)
+    local result = {}
+
+    for _, other in ipairs(node.linked) do
+        if other.alloc then
+            result[other.id] = true
+        end
+    end
+
+    return result
+end
+
+local a = allocatedNeighbors(first)
+local b = allocatedNeighbors(second)
+
+for id in pairs(a) do
+    if b[id] then
+        print("Shared allocated neighbor:", id)
+    end
+end
+
+print("=== DISCONNECTED NODE DETAILS ===")
+
+for _, id in ipairs({4432, 13753, 42795}) do
+    local node = spec.nodes[id]
+
+    if node then
+        print(
+            "ID:", id,
+            "Name:", node.dn or node.name or "Unknown",
+            "Type:", node.type or "Unknown",
+            "Allocated:", tostring(node.alloc),
+            "Linked nodes:", #node.linked
+        )
+
+        for _, linked in ipairs(node.linked) do
+            if linked.alloc then
+                print(
+                    "  Allocated neighbor:",
+                    linked.id,
+                    linked.dn or linked.name or "Unknown"
+                )
+            end
+        end
+    else
+        print("Node not found:", id)
+    end
+end
+
+print("=== REPLACEMENT NODE CONNECTIONS ===")
+
+for _, id in ipairs({55571, 63138}) do
+    local node = spec.nodes[id]
+
+    if node then
+        print(
+            "Node:", id,
+            node.dn or node.name or "Unknown",
+            "Allocated:", tostring(node.alloc)
+        )
+
+        for _, other in ipairs(node.linked) do
+            print(
+                "  Neighbor:", other.id,
+                other.dn or other.name or "Unknown",
+                "Allocated:", tostring(other.alloc)
+            )
+        end
+    else
+        print("Node not found:", id)
+    end
+end
