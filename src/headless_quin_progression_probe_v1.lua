@@ -1,0 +1,132 @@
+
+package.path =
+    "../runtime/lua/?.lua;../runtime/lua/?/init.lua;"
+    .. package.path
+package.cpath = "../runtime/?.dll;" .. package.cpath
+
+local function readFile(path)
+    local f, err = io.open(path, "rb")
+    assert(f, err)
+    local data = f:read("*a")
+    f:close()
+    return data
+end
+
+local function run()
+    -- Capture CLI arguments before loading the PoB environment.
+    local xmlPath = assert(arg[1], "Missing XML argument")
+
+    dofile("HeadlessWrapper.lua")
+
+    print("XML argument captured: YES")
+
+    loadBuildFromXML(
+        readFile(xmlPath),
+        "QUIN Skill Check"
+    )
+
+    assert(build.spec.curClassName == "Templar")
+    assert(build.spec.curAscendClassName == "Inquisitor")
+    assert(build.characterLevel == 40)
+    assert(build.spec.treeVersion == "3_29")
+
+    local group = assert(build.skillsTab.socketGroupList[1])
+    local gem = assert(group.gemList[1])
+
+    print("=== STORM BRAND POB CHECK ===")
+    print("Skill ID:", tostring(gem.skillId))
+    print("Gem Level:", tostring(gem.level))
+    print("Group Enabled:", tostring(group.enabled))
+    print("Slot Enabled:", tostring(group.slotEnabled))
+
+    assert(gem.skillId == "StormBrand", "Wrong skill ID")
+
+    build.mainSocketGroup = 1
+    wipeGlobalCache()
+    build.outputRevision = build.outputRevision + 1
+    build.buildFlag = false
+    build.skillsTab:UpdateSocketGroups()
+    build.calcsTab:BuildOutput()
+
+    local output = assert(build.calcsTab.mainOutput)
+    local calcGroup = assert(build.skillsTab.socketGroupList[1])
+
+    print("Calculated Group Enabled:", tostring(calcGroup.enabled))
+    print("Calculated Slot Enabled:", tostring(calcGroup.slotEnabled))
+    print("Combined DPS:", tostring(output.CombinedDPS))
+    print("Hit Speed:", tostring(output.HitSpeed))
+    print("Cast Rate:", tostring(output.CastRate))
+    print("Life:", tostring(output.Life))
+    print("Mana:", tostring(output.Mana))
+    print("Intelligence:", tostring(output.Int))
+
+    print("")
+    print("=== CHARACTER REQUIREMENTS ===")
+    for _, key in ipairs({
+        "Str", "Dex", "Int",
+        "ReqStr", "ReqDex", "ReqInt"
+    }) do
+        print(key .. ":", tostring(output[key]))
+    end
+
+    print("")
+    print("=== STORM BRAND GEM DATA ===")
+
+    for key, value in pairs(gem) do
+        local lower = tostring(key):lower()
+
+        if lower:find("req", 1, true)
+            or lower:find("level", 1, true)
+            or lower:find("gemdata", 1, true) then
+            print(tostring(key) .. ":", tostring(value))
+        end
+    end
+
+    print("")
+    print("=== TEMPLAR START NEIGHBORS ===")
+
+    local spec = assert(build.spec)
+    local start = assert(spec.nodes[61525])
+    local nearby = {}
+
+    for _, node in pairs(start.linked or {}) do
+        nearby[#nearby + 1] = node
+    end
+
+    table.sort(nearby, function(a, b)
+        return a.id < b.id
+    end)
+
+    for _, node in ipairs(nearby) do
+        print(
+            "NODE:",
+            tostring(node.id),
+            "| NAME:", tostring(node.dn or node.name),
+            "| TYPE:", tostring(node.type),
+            "| ALLOCATED:", tostring(node.alloc)
+        )
+
+        for _, stat in ipairs(node.sd or {}) do
+            print("  STAT:", tostring(stat))
+        end
+    end
+
+    print("START NEIGHBORS:", #nearby)
+
+
+    assert(calcGroup.enabled, "Skill group disabled")
+    assert(calcGroup.slotEnabled, "Skill slot disabled")
+    assert(
+        type(output.CombinedDPS) == "number"
+            and output.CombinedDPS > 0,
+        "Storm Brand damage not calculated"
+    )
+
+    print("STORM_BRAND_CALCULATION: PASS")
+end
+
+local ok, err = pcall(run)
+if not ok then
+    io.stderr:write("QUIN_SKILL_ERROR:" .. tostring(err) .. "\n")
+    os.exit(1)
+end
